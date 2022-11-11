@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2022 Generated MainTopWebhelp.fltar" Date="2022-11-11T11:37:42.7995708+00:00" Branch="toc" Commit="9ffedb827fd044c8565131e532d5b111228086d8">
+<MadCapLog Protocol="2" Description="MadCap Flare 2022 Generated MainTopWebhelp.fltar" Date="2022-11-11T12:45:17.2201033+00:00" Branch="toc" Commit="7c2f9893fd65c06592b3b005e6e3248a34948181">
     <Messages>Compiling target MainTopWebhelp...
 Removing previously generated content...
 Loading skin info...
@@ -1528,7 +1528,7 @@ Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated index.htm
 Saving result set...
 Ignored Compiler Warnings: 2982
-Output generated in 2 minute(s) and 28 second(s).
+Output generated in 2 minute(s) and 13 second(s).
 
 Done
 Saving log to "C:\Users\Rich Green\Documents\Alert Logic Flare Websites\Alert Logic Help Project\Output\Rich_Green\MainTopWebhelp\MainTopWebhelp.mclog"
