@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Main_HTML5___Side_Navigation_Skin" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="Release Notes" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Main_HTML5___Side_Navigation_Skin" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="Release Notes" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
@@ -21,16 +21,12 @@
         <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <style>@import url('https://dl.dropboxusercontent.com/s/q5nt7ghnm4mfv88/override-main.css');
-
-</style>
-        <style>@import url('https://dl.dropboxusercontent.com/s/2w0nz28scrsaqf2/mainOveride.css');
-
-</style>
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../Resources/Stylesheets/mainStyles.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -89,9 +85,17 @@
         </script>
         <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
         </script>
+        <script src="../Resources/Scripts/jquery.toc/jquery.toc.js" type="text/javascript">
+        </script>
+        <script>/* <![CDATA[ */(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-MDHH9ML');/* ]]> */</script>
         <script>/* <![CDATA[ */
 			$(document).ready(function(){
 				$(".top-nav").appendTo("div.logo-wrapper");
+				$(".in-page-toc").appendTo("div.main-section");
 			});
 		/* ]]> */</script>
     </head>
@@ -119,7 +123,7 @@
                                 </div>
                             </div>
                             <div class="title-bar-layout outer-row">
-                                <div class="logo-wrapper"><a class="logo" href="../main-home.htm" alt="Logo"></a>
+                                <div class="logo-wrapper"><a class="logo" href="../home.htm" alt="Logo"></a>
                                 </div>
                                 <div class="navigation-wrapper nocontent">
                                     <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
@@ -172,6 +176,8 @@
                             </nav>
                             <div class="body-container">
                                 <div data-mc-content-body="True">
+                                    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDHH9ML" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                                    </noscript>
                                     <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Main_Toolbar mc-component nocontent" style="mc-topic-toolbar-items: ;">
                                         <div class="button-group-container-left">
                                             <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
@@ -215,14 +221,173 @@
                                         <h2 class="bhoofTop"><span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span> release notes</h2>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />2022</a></span>
                                             <div class="MCDropDownBody dropDownBody">
+                                                <h3>Release date: November 1, 2022</h3>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released updates to this documentation site to improve navigation and readability: </p>
+                                                <ul>
+                                                    <li>
+                                                        <p>An expandable navigation area on the left replaces menus that were at the top of the page, making it easier to browse content.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The layout now features mobile-friendly styling.</p>
+                                                    </li>
+                                                </ul>
+                                                <h3>Release date: October 6, 2022</h3>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released the following enhancements to scanning in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span>:</p>
+                                                <ul>
+                                                    <li>You can now exclude assets from agent-based scans. To learn more, see <a href="../analyze/manage-scans-and-results/agent-based-scan.htm" class="MCXref xref">Agent-Based Scanning</a>.</li>
+                                                    <li>Default internal and external vulnerability scan schedules are now inactive when you create a deployment. You can activate the schedules you want to use when you are ready to initiate scanning. To learn more, see <a href="../analyze/manage-scans-and-results/schedules.htm" class="MCXref xref">Manage Vulnerability Scan Schedules</a>.</li>
+                                                    <li>New exposures and remediations help you verify the health of your scan configuration. To learn more about the Health page, see <a href="../analyze/health.htm" class="MCXref xref">Health</a>.</li>
+                                                    <li>A new warning appears during Data Center deployment configuration if you attempt to add a network that is too large for discovery and vulnerability scanning.</li>
+                                                </ul>
+                                                <p>In  deployment configuration pages, <span class="mc-variable ALVariables.Company variable">Alert Logic</span> also released the following changes on the left panel to improved the configuration experience for scanning and exclusions:</p>
+                                                <table style="width: 100%;">
+                                                    <col />
+                                                    <col />
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Configuration Item</th>
+                                                            <th>New Access</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Discovery scan schedules (Data Center deployments only)</td>
+                                                            <td>Under <b>Assets</b>, click <b>Discover Assets</b>.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Internal and external vulnerability scan schedules and agent-based scan schedules</td>
+                                                            <td> Under <b>Vulnerability Scanning</b>,  click <b>Scan Schedules</b>.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Scan exclusions</td>
+                                                            <td>
+                                                                <p>Under <b>Vulnerability Scanning</b>,  click <b>Scan Exclusions</b>.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Scan credentials</td>
+                                                            <td>
+                                                                <p>Under <b>Vulnerability Scanning</b>,  click <b>Scan Credentials</b>.</p>
+                                                                <p>You can still configure scan credentials on the <a href="../analyze/topology.htm" class="MCXref xref">Topology</a> page also.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Scan performance</td>
+                                                            <td>
+                                                                <p>Under <b>Vulnerability Scanning</b>, click <b>Scan Performance</b>.</p>
+                                                                <p>You can still configure scan performance on the <a href="../analyze/topology.htm" class="MCXref xref">Topology</a> page also.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span class="mc-variable ALVariables.NetworkIDS variable">Network IDS</span> exclusions</td>
+                                                            <td>Under <b><span class="mc-variable ALVariables.NetworkIDS variable">Network IDS</span></b>, click <b>Network IDS Exclusions</b>. </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p>To learn more, see:</p>
+                                                <ul>
+                                                    <li><a href="../get-started/deployments.htm" class="MCXref xref">Get Started with Alert Logic Deployments</a>
+                                                    </li>
+                                                    <li><a href="../analyze/manage-scans-and-results/discovery-schedules.htm" class="MCXref xref">Manage Discovery Scan Schedules</a>
+                                                    </li>
+                                                    <li><a href="../analyze/manage-scans-and-results/schedules.htm" class="MCXref xref">Manage Vulnerability Scan Schedules</a>
+                                                    </li>
+                                                </ul>
+                                                <h3>Release date: October 3, 2022</h3>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> improved the method used to count new, resolved, and unresolved vulnerabilities. The new method fixes previous issues with duplicate vulnerabilities and vulnerabilities disappearing and then reappearing. With the more accurate counts, you can expect the following changes in vulnerability reports and dashboards:</p>
+                                                <ul>
+                                                    <li>Overall lower counts for weekly and monthly vulnerabilities</li>
+                                                    <li>Lower variance counts for new and resolved vulnerabilities</li>
+                                                    <li>No significant change in daily counts</li>
+                                                    <li>Vulnerability trends with the same trajectory but flatter</li>
+                                                </ul>
+                                                <p>For details about how Alert Logic counts vulnerabilities, see the knowledge base article <a href="https://support.alertlogic.com/hc/en-us/articles/9233225199131">Improved Vulnerability Counts and Trends</a>.</p>
+                                                <h3>Release date: September 21, 2022</h3>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released a series of enhancements to streamline working with incidents in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span>. These updates include improvements to the Incidents page, the decommission of the older Incidents page, and expanded adoption of the MITRE ATT&amp;CK framework.</p>
+                                                <h4>Improvements to the Incidents page:</h4>
+                                                <ul>
+                                                    <li>Advanced Search support—You can now create complex queries that can combine with selected filters to further refine your incident search results. For more information, see <a href="../analyze/incidents/advanced-search.htm" class="MCXref xref">Perform Advanced Incident Searches</a>.</li>
+                                                    <li>Status filters improvement—All incident statuses are now shown by default. Previously, only open incidents filter and counts were shown.</li>
+                                                </ul>
+                                                <h4>Decommission of old Incidents page:</h4>
+                                                <ul>
+                                                    <li>Incidents page toggle to switch experiences has been removed.</li>
+                                                    <li>URLs pointing to the previous Incidents page now redirect to the upgrade page.</li>
+                                                    <li>Dashboard drill-down now directs to the upgraded Incidents page.</li>
+                                                </ul>
+                                                <h4>Expanded adoption of the MITRE ATT&amp;CK framework:</h4>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> continues to adopt the MITRE ATT&amp;CK framework over the legacy <span class="mc-variable ALVariables.Company variable">Alert Logic</span> attack classification system. To support ongoing adoption efforts, <span class="mc-variable ALVariables.Company variable">Alert Logic</span> will continue removing the legacy attack classification system from the console.</p>
+                                                <ul>
+                                                    <li>The Incidents page  no longer includes Classification as a filter option. The page now uses  MITRE Tactic and Technique to classify threats. For more information, see <a href="../analyze/incidents.htm" class="MCXref xref">Incidents</a>.</li>
+                                                    <li>
+                                                        <p>Reports with threat data  no longer include Classification visualizations. Threat reports now use  MITRE Tactic and Technique to classify threats. Reports affected include:</p>
+                                                        <ul>
+                                                            <li>AWS Incident Analysis Reports</li>
+                                                            <li>Azure Incident Analysis Reports</li>
+                                                            <li>Incident Analysis Reports</li>
+                                                            <li>Incident Account Summary Reports</li>
+                                                            <li>Enterprise Risk Reports</li>
+                                                            <li>Partner Analysis Reports</li>
+                                                            <li>HIPAA-HITECH Security Audit Reports</li>
+                                                            <li>PCI Audit Reports</li>
+                                                            <li>PCI DSS Audit Reports</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Incident notifications now provide MITRE ATT&amp;CK information instead of  the legacy classification that was previously part of the e-mail preview. For more information, see <a href="../configure/notifications/incident.htm" class="MCXref xref">Incident Notifications</a>.</li>
+                                                    <li>The Authentication Management Security Dashboard is updated to use MITRE ATT&amp;CK information instead of the legacy <span class="mc-variable ALVariables.Company variable">Alert Logic</span> incident classification. Additional bug fixes to the geolocation map and count features for the dashboard are also released.</li>
+                                                </ul>
+                                                <h3>Release date: September 20, 2022</h3>
+                                                <p>Customers who use the updated Incidents experience can access these new features and enhancements by clicking an incident in the Incident List:</p>
+                                                <ul>
+                                                    <li>
+                                                        <p><b>Baseline Map</b>—Applies to incidents with geographical data only: </p>
+                                                        <ul>
+                                                            <li>The map for comparing baseline and outlier activity now appears in the Attack Summary section without having to click a link. You can hide the map by clicking a button.</li>
+                                                            <li>The map no longer expires after two weeks.</li>
+                                                            <li>Visuals and performance are improved.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <p><b>Evidence Timeline</b>
+                                                        </p>
+                                                        <ul>
+                                                            <li>A new visual representation of the evidence in a timeline simplifies the understanding of the timing of activities culminating in an incident.</li>
+                                                            <li>Tooltips  provide details about specific evidence. </li>
+                                                            <li>You can select an area of the timeline to zoom in and display more details. When the timeline is zoomed in, a message indicates the number of evidence activities currently displayed. </li>
+                                                            <li>You can reset the zoom to the original timeline view by clicking a button.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <p>To learn more, see <a href="../analyze/incidents/incidents-details.htm" class="MCXref xref">Incidents Details</a>.</p>
+                                                <h3>Release date:&#160;September 12, 2022</h3>
+                                                <p>The updated version of the Incidents page is now the default experience when you access the Incidents page. <span class="mc-variable ALVariables.Company variable">Alert Logic</span> also released the following improvements to the updated incidents experience:</p>
+                                                <ul>
+                                                    <li>Incident status filters  are now always visible.</li>
+                                                    <li>Analyst notes now support line break formatting.</li>
+                                                    <li>The Incident pages now support using the "back"&#160;button in the browser.</li>
+                                                </ul>
+                                                <p>For more information about the upgraded Incidents page, see <a href="../analyze/incidents.htm" class="MCXref xref">Incidents</a>. </p>
+                                                <h3>Release date:&#160;September 6, 2022</h3>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> updated the following feature names:</p>
+                                                <ul>
+                                                    <li>Connection Targets are now Connections.</li>
+                                                    <li>Connectors are now Templated Connections. </li>
+                                                </ul>
+                                                <p>For more information, see <a href="../configure/connections.htm" class="MCXref xref">Connections</a>.</p>
                                                 <h3>Release date: July 26, 2022</h3>
                                                 <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> now uses the new <span class="mc-variable ALVariables.Log_Review_feature variable">Machine Learning Log Review</span> process to generate <span class="mc-variable ALVariables.LogReview variable">Log Review</span> incidents in the Incidents page. The <span class="mc-variable ALVariables.Log_Review_feature variable">Machine Learning Log Review</span> capabilities and coverage ensures you have a higher level of security value by automatically detecting log-based anomaly types based on unique patterns and trends learned from your organization. For more information, see <a href="../analyze/log-review-upgrade.htm" class="MCXref xref">Machine Learning Log Review Upgrade</a>. To access details for <span class="mc-variable ALVariables.LogReview variable">Log Review</span> incidents, see the <a href="../analyze/reports/threats/log-review-analysis/monthly-log-review-details.htm" class="MCXref xref">Monthly Log Review Details Report</a>.</p>
                                                 <h3>Release date: July 6, 2022</h3>
                                                 <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> added security content support for customers with a configured Mimecast collector in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span>. You can view and export data collected from your Mimecast collector from the new <a href="../analyze/dashboard/email-security-summary.htm#Endpoin" class="MCXref xref">Email Security Summary Dashboard</a>. You can also find Mimecast observations in <a href="../get-started/search-a.htm">Search</a> and create correlations from these observations. To learn how to create correlations, see <a href="../analyze/search/search-correlation.htm" class="MCXref xref">Improved Correlations and Search</a>. </p>
-                                                <div>
-                                                    <h3>Release date: June 30, 2022</h3>
-                                                    <p>New customers must now accept the <span class="mc-variable ALVariables.Company variable">Alert Logic</span> Terms of Service before initial use of the product.</p>
-                                                </div>
+                                                <h3>Release date:&#160;July 1, 2022</h3>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released enhancements to <span class="mc-variable ALVariables.NetworkIDS variable">Network IDS</span> exclusions. When you add an exclusion, the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span> now displays:</p>
+                                                <ul>
+                                                    <li>Name of the person who excluded the CIDRs from <span class="mc-variable ALVariables.NetworkIDS variable">Network IDS</span></li>
+                                                    <li>Date and time of the exclusion</li>
+                                                    <li>Justification for the exclusion, which you enter in a new required field</li>
+                                                </ul>
+                                                <p>The improved experience is available from your <span class="mc-variable ALVariables.Professional_1 variable">Alert Logic MDR Professional</span> subscription deployments.</p>
+                                                <h3>Release date: June 30, 2022</h3>
+                                                <p>New customers must now accept the <span class="mc-variable ALVariables.Company variable">Alert Logic</span> Terms of Service before initial use of the product.</p>
                                                 <div>
                                                     <h3>Release date: June 11, 2022</h3>
                                                     <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released enhancements to the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span> which includes the consolidation of the different domains into one (console.alertlogic.com), updated icons, and improved text legibility. All existing links and bookmarks are redirected automatically to the new URLs. These changes provide several improvements to your experience:</p>
@@ -256,7 +421,7 @@
                                                     <li>If you are using the default internal network scan schedule, <span class="mc-variable ALVariables.Company variable">Alert Logic</span> uses the default agent-based scan schedule for agent-based scans. <p>If you want to use internal network scan schedules instead, turn on the <b>Use internal network scan schedules(s)</b> option on the Agent-Based Scans page.</p></li>
                                                     <li>If you are using custom internal network scan schedules (not the default), <span class="mc-variable ALVariables.Company variable">Alert Logic</span> uses your internal network scan schedules for your agent-based scans. <p>If you want to use an agent-based scan schedule instead, turn off the <b>Use internal network scan schedules(s)</b> option on the Agent-Based Scans page. You can then choose to use the default agent-based scan schedule or configure one or more custom schedules.</p></li>
                                                 </ul>
-                                                <p>To learn more about agent-based scan schedules and how to create them, see <a href="../analyze/manage-scans-and-results/schedules.htm" class="MCXref xref">Manage Scan Schedules</a>.</p>
+                                                <p>To learn more about agent-based scan schedules and how to create them, see <a href="../analyze/manage-scans-and-results/schedules.htm" class="MCXref xref">Manage Vulnerability Scan Schedules</a>.</p>
                                                 <h4>Scan report filters</h4>
                                                 <p>In Scan Schedule Breakdown reports, you can now show assessment results for agent-based scans by choosing the schedule in the Scan Schedule Name filter. A new Category filter is also available that allows you to isolate network or agent vulnerability assessments in consolidated results.</p>
                                                 <p>To learn more about Scan Schedule Breakdown reports, see <a href="../analyze/reports/Vulnerabilities/reports.htm#ScanScheduleBreakdown" class="MCXref xref">Scan Schedule Breakdown</a>.</p>
@@ -280,8 +445,8 @@
                                                     <li><a href="../analyze/dashboard/automated-response-summary.htm" class="MCXref xref">Automated Response Summary Dashboard</a>
                                                     </li>
                                                 </ul>
-                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released an enhancement to the Incidents page in the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span>. Customers who opt in to the updated incidents experience can access a feature to create a simple response from an incident. To learn more, see <a href="../get-started/incidents-upgrade.htm" class="MCXref xref">Incidents Upgrade</a>.</p>
-                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released enhancements to the Connectors page in the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span>. You can now configure connection targets, which define common authentication path and credential references for external systems. <span class="mc-variable ALVariables.Company variable">Alert Logic</span> stores your connection targets  securely, and you can reuse them in connectors and simple responses. To learn more, see <a href="../configure/connectors/connection-targets/connection-target.htm" class="MCXref xref">Connection Targets Configuration Guide</a>.</p>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released an enhancement to the Incidents page in the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span>. Customers who opt in to the updated incidents experience can access a feature to create a simple response from an incident. To learn more, see <a href="../analyze/incidents.htm" class="MCXref xref">Incidents</a>.</p>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released enhancements to the Connectors page in the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span>. You can now configure connection targets, which define common authentication path and credential references for external systems. <span class="mc-variable ALVariables.Company variable">Alert Logic</span> stores your connection targets  securely, and you can reuse them in connectors and simple responses.</p>
                                                 <h3>Release date: April 11, 2022</h3>
                                                 <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> added security content support for <span class="mc-variable ALVariables.CrowdStrike variable">CrowdStrike</span> in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span>. You can view generated endpoint incidents and collected log data. For more information, see <a href="../analyze/endpoint-incidents.htm#Endpoin" class="MCXref xref">CrowdStrike Endpoint incidents</a>. </p>
                                                 <div>
@@ -290,7 +455,7 @@
                                                 </div>
                                                 <div>
                                                     <h3>Release date: March 1, 2022</h3>
-                                                    <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released an enhancement to schedules for internal and external vulnerability scans. A new option is available to scan for vulnerabilities once every two weeks. For more information, see <a href="../analyze/manage-scans-and-results/schedules.htm" class="MCXref xref">Manage Scan Schedules</a>.</p>
+                                                    <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released an enhancement to schedules for internal and external vulnerability scans. A new option is available to scan for vulnerabilities once every two weeks. For more information, see <a href="../analyze/manage-scans-and-results/schedules.htm" class="MCXref xref">Manage Vulnerability Scan Schedules</a>.</p>
                                                     <h3>Release date: February 24, 2022</h3>
                                                     <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released the Monthly Log Review Details report which provides details on anomalies and alerts detected in all daily Log Review Summary incidents for the month you select. For more information, see <a href="../analyze/reports/threats/log-review-analysis/monthly-log-review-details.htm" class="MCXref xref">Monthly Log Review Details Report</a>.</p>
                                                     <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> also released enhancements to scheduled reports:</p>
@@ -365,7 +530,7 @@
                                                 <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> improved the <a href="../configure/application-registry.htm" class="MCXref xref">Application Registry</a> page  to make it easier for you to find and configure your collections. <span class="mc-variable ALVariables.Company variable">Alert Logic</span> now displays collector integrations in tiles that correspond to its third-party application or product. <span class="mc-variable ALVariables.Company variable">Alert Logic</span> also added a new collector that allows you to integrate and collect logs from <span class="mc-variable ALVariables.CrowdStrike variable">CrowdStrike</span>. For more information, see <a href="../configure/collectors/crowdstrike.htm" class="MCXref xref">Configure CrowdStrike Log Collector</a>.</p>
                                                 <h3>Release date: July 27, 2021</h3>
                                                 <h4>Features</h4>
-                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released improvements  to the Evidence tab of the Investigation Report in the Incidents page for <span class="mc-variable ALVariables.LogReview variable">Log Review</span> incidents  associated with anomaly or rule-based findings. You can download a CSV file of the observations findings or facts for an event related to an incident. <span class="mc-variable ALVariables.Company variable">Alert Logic</span> also added the aggregator summary section to <span class="mc-variable ALVariables.LogReview variable">Log Review</span> incidents which allows you to download evidence for specific aggregator types for compliance needs. For more information, see <a href="../analyze/log-review-upgrade.htm#Download" class="MCXref xref">Download evidence</a> and <a href="../get-started/incidents-upgrade.htm#investigationReport" class="MCXref xref">Investigation Report</a>.</p>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released improvements  to the Evidence tab of the Investigation Report in the Incidents page for <span class="mc-variable ALVariables.LogReview variable">Log Review</span> incidents  associated with anomaly or rule-based findings. You can download a CSV file of the observations findings or facts for an event related to an incident. <span class="mc-variable ALVariables.Company variable">Alert Logic</span> also added the aggregator summary section to <span class="mc-variable ALVariables.LogReview variable">Log Review</span> incidents which allows you to download evidence for specific aggregator types for compliance needs. For more information, see <a href="../analyze/log-review-upgrade.htm#Download" class="MCXref xref">Download evidence</a> and <a href="../analyze/incidents/incidents-details.htm#investigationReport" class="MCXref xref">Investigation Report</a>.</p>
                                                 <h3>Release date: July 1, 2021</h3>
                                                 <h4>Features</h4>
                                                 <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> can detect and generate Endpoint Security Incidents from log data collected from third-party endpoint application resources. To learn more endpoint security incidents, see <a href="../analyze/endpoint-incidents.htm" class="MCXref xref">Endpoint Security Incidents</a>.</p>
@@ -412,7 +577,7 @@
                                                 <h3>Release date: March 18, 2021</h3>
                                                 <h4>Features</h4>
                                                 <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released an upgraded of the <span class="mc-variable ALVariables.LogReview variable">Log Review</span> incident process, <span class="mc-variable ALVariables.Log_Review_feature variable">Machine Learning Log Review</span>. The new machine learning algorithms allows <span class="mc-variable ALVariables.Company variable">Alert Logic</span> to deliver a higher level of security value by automatically detecting many log-based anomaly types based on unique patterns and trends learned from your organization. For more information, see <a href="../analyze/log-review-upgrade.htm" class="MCXref xref">Machine Learning Log Review Upgrade</a>. </p>
-                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> also released an upgraded version of the Incidents page for an enhanced and improved experience   to maximize your ability to manage incidents, and also view <span class="mc-variable ALVariables.LogReview variable">Log Review</span> incidents.  This upgrade includes enhancements to see relevant and important information quickly, page customization, improvements to the investigation report, and more. For more information, see <a href="../get-started/incidents-upgrade.htm" class="MCXref xref">Incidents Upgrade</a>. </p>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> also released an upgraded version of the Incidents page for an enhanced and improved experience   to maximize your ability to manage incidents, and also view <span class="mc-variable ALVariables.LogReview variable">Log Review</span> incidents.  This upgrade includes enhancements to see relevant and important information quickly, page customization, improvements to the investigation report, and more. For more information, see <a href="../analyze/incidents.htm" class="MCXref xref">Incidents</a>. </p>
                                                 <p><span class="mc-variable ALVariables.LogReview variable">Log Review</span> incidents can also be found in the <a href="../analyze/reports/threats/log-review-analysis/monthly-log-review.htm" class="MCXref xref">Monthly Log Review Report</a> report and in the improved version of the <a href="../analyze/reports/threats/incident-analysis/incident-daily-digest.htm" class="MCXref xref">Incident Daily Digest</a> report to evaluate daily incidents by threat level, classification, top attackers, and top targets. </p>
                                                 <h3>Release date: February 4, 2021</h3>
                                                 <h4>Features</h4>
@@ -437,7 +602,7 @@
                                                     <li> For internal and external vulnerability scans, you can now specify the ports to scan. You can choose ports in predefined groups or define a custom list of ports to scan.  </li>
                                                     <li>You can also specify ports  to exclude from internal and external vulnerability scans.</li>
                                                 </ul>
-                                                <p>To learn more, see <a href="../analyze/manage-scans-and-results/schedules.htm" class="MCXref xref">Manage Scan Schedules</a>.</p>
+                                                <p>To learn more, see <a href="../analyze/manage-scans-and-results/schedules.htm" class="MCXref xref">Manage Vulnerability Scan Schedules</a>.</p>
                                             </div>
                                         </div>
                                         <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="18" alt="Closed" data-mc-alt2="Open" />2020</a></span>
@@ -515,7 +680,7 @@
                                                     <li><span class="mc-variable ALVariables.Company variable">Alert Logic</span> is also releasing two new compliance reports to provide guidance on how to use and access File Integrity Monitoring features to demonstrate compliance with PCI Requirement 11.5 and PCI Requirement 10.5.5 in the Compliance tab of the Reports page. For more information, see <a href="../analyze/reports/compliance/PCI-requirement-11.5.htm" class="MCXref xref">PCI Requirement 11.5</a> and <a href="../analyze/reports/compliance/PCI-requirement-10.5.5.htm" class="MCXref xref">PCI Requirement 10.5.5</a>.</li>
                                                     <li><span class="mc-variable ALVariables.WLA_1 variable">Web Log Analytics (WLA)</span> is a log-based application attack detection solution that protects your web applications from common application vulnerabilities. <span class="mc-variable ALVariables.WLA_2 variable">WLA</span> is available for <span class="mc-variable ALVariables.Professional variable">Professional</span> or <span class="mc-variable ALVariables.Enterprise variable">Enterprise</span> <span class="mc-variable ALVariables.SIEMless variable">Managed Detection and Response</span> customers. To learn more about <span class="mc-variable ALVariables.WLA_2 variable">WLA</span>, see <a href="../get-started/about-wla.htm" class="MCXref xref">About Alert Logic Web Log Analytics (WLA)</a>.</li>
                                                     <li>The Authentication Management Security dashboard is available for <span class="mc-variable ALVariables.SIEMless variable">Managed Detection and Response</span> customers. The Authentication Management Security dashboard provides a summary of your authentication security activity in your environment. To learn more, see <a href="../analyze/dashboard/authentication-management-security.htm" class="MCXref xref">Authentication Management Security</a>.</li>
-                                                    <li> Connectors  allow you to send security data directly to a third-party application in near real time. When  you set up a notification and subscribe a connector, the connector can send a message or generate an IT&#160;service management (ITSM) ticket  automatically. For more information, see <a href="../configure/connectors.htm" class="MCXref xref">Webhook and Email Connectors</a>.</li>
+                                                    <li> Connectors  allow you to send security data directly to a third-party application. When  you set up a notification and subscribe a connector, the connector can send a message or generate an IT&#160;service management (ITSM) ticket  automatically.</li>
                                                     <li>The <span class="mc-variable ALVariables.Company variable">Alert Logic</span> DevNet developer portal enables you to build automation and integrations to extend and embed the <span class="mc-variable ALVariables.Company variable">Alert Logic</span> platform. This developer portal includes a comprehensive toolkit of command-line tools and programming language integrations, as well as a rich library of use cases so you can get started quickly. The portal is located at <a href="http://developer.alertlogic.com/" title="Alert Logic DevNet developer portal" alt="Alert Logic DevNet developer portal">developer.alertlogic.com</a>.</li>
                                                 </ul>
                                                 <h3>Release date: August 19, 2020</h3>
@@ -541,7 +706,7 @@
                                                 </ul>
                                                 <h3>Release date:&#160;August 8, 2020</h3>
                                                 <h4>Features</h4>
-                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released enhancements to scan scheduling. Default scan schedules are available  that you can edit, or you can create additional schedules for all or selected assets in your deployment. The improved Scan Schedules page is available from your deployments. To learn more, see <a href="../analyze/manage-scans-and-results/schedules.htm" class="MCXref xref">Manage Scan Schedules</a>.</p>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released enhancements to scan scheduling. Default scan schedules are available  that you can edit, or you can create additional schedules for all or selected assets in your deployment. The improved Scan Schedules page is available from your deployments. To learn more, see <a href="../analyze/manage-scans-and-results/schedules.htm" class="MCXref xref">Manage Vulnerability Scan Schedules</a>.</p>
                                                 <p>You can now also optimize scan performance from the Topology page in the <span class="mc-variable ALVariables.Company variable">Alert Logic</span> console. To learn more, see <a href="../analyze/manage-scans-and-results/adjust-settings.htm#Adjustscanperformance" class="MCXref xref">Adjust scan performance</a>.</p>
                                                 <h3>Release date: August 5, 2020</h3>
                                                 <h4>Features</h4>
@@ -626,7 +791,7 @@
                                                     </ul>
                                                     <h3>Release date: April 2, 2020</h3>
                                                     <h4>Features</h4>
-                                                    <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> is releasing the following features to enhance your experience in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span>, and add administrative and security value to your organization: <ul><li><p>Application Registry is a repository of  multiple third-party application integrations that can generate log data which <span class="mc-variable ALVariables.Company variable">Alert Logic</span> can collect. Application Registry is only available for <span class="mc-variable ALVariables.SIEMless variable">Managed Detection and Response</span> <span class="mc-variable ALVariables.Professional variable">Professional</span> and <span class="mc-variable ALVariables.Enterprise variable">Enterprise</span> customers. To learn more about Application Registry, see <a href="../configure/application-registry.htm" class="MCXref xref">Application Registry</a>. </p></li><li><p>Application Log is a new configuration experience with functional APIs specific to the applications you want to configure. The Application Log feature streamline workflow with specific templates applications that currently supports flat file logs. For more information, see <a href="../configure/application-logs.htm" class="MCXref xref">Application Logs for Flat File Configuration</a>.</p></li><li><p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> can detect and generate Firewall Security Incidents and observations from log data collected from third-party firewall application resources. To learn more firewall security incidents, see <a href="../analyze/firewall-incidents.htm" class="MCXref xref">Firewall Incidents and Log Configuration</a>.</p></li><li><p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> is also releasing the following dashboards in combination with firewall incidents for customers with configured firewall application resources and log collection instances: </p></li><ul><li>The Firewall Log Volume Analysis dashboard provides insights into the volume of firewall log messages, firewall security incidents and observations in your environment. To learn more about this dashboard, see <a href="../analyze/dashboard/firewall-log-volume-dashboard.htm" class="MCXref xref">Firewall Log Volume Analysis Dashboard</a>.</li><li>The Firewall Log Security Analysis dashboard provides insights into the firewall security incidents generated from analyzing firewall logs in  your environment. To learn more about this dashboard, see <a href="../analyze/dashboard/firewall-log-security-dashboard.htm" class="MCXref xref">Firewall Log Security Analysis Dashboard</a>.</li></ul><li><p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> now expanded the health information int the Reports page for <span class="mc-variable ALVariables.SIEMless variable">Managed Detection and Response</span> customers. The Daily Health Summary and Weekly Health Summary reports provides insights into issues in your environment related to your protected networks, data collection, and agents. To learn more about the Daily Health Summary report, see <a href="../analyze/reports/service/health/daily-health-summary.htm" class="MCXref xref">Daily Health Summary</a>. To learn more about the Weekly Health Summary report, see Weekly Health Summary.</p></li></ul></p>
+                                                    <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> is releasing the following features to enhance your experience in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span>, and add administrative and security value to your organization: <ul><li><p>Application Registry is a repository of  multiple third-party application integrations that can generate log data which <span class="mc-variable ALVariables.Company variable">Alert Logic</span> can collect. Application Registry is only available for <span class="mc-variable ALVariables.SIEMless variable">Managed Detection and Response</span> <span class="mc-variable ALVariables.Professional variable">Professional</span> and <span class="mc-variable ALVariables.Enterprise variable">Enterprise</span> customers. To learn more about Application Registry, see <a href="../configure/application-registry.htm" class="MCXref xref">Application Registry</a>. </p></li><li><p>Application Log is a new configuration experience with functional APIs specific to the applications you want to configure. The Application Log feature streamline workflow with specific templates applications that currently supports flat file logs. For more information, see <a href="../configure/application-logs.htm" class="MCXref xref">Application Logs for Flat File Configuration</a>.</p></li><li><p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> can detect and generate Firewall Security Incidents and observations from log data collected from third-party firewall application resources. To learn more firewall security incidents, see <a href="../analyze/firewall-incidents.htm" class="MCXref xref">Firewall Incidents and Log Configuration</a>.</p></li><li><p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> is also releasing the following dashboards in combination with firewall incidents for customers with configured firewall application resources and log collection instances: </p></li><ul><li>The Firewall Log Volume Analysis dashboard provides insights into the volume of firewall log messages, firewall security incidents and observations in your environment. To learn more about this dashboard, see <a href="../analyze/dashboard/firewall-log-volume-dashboard.htm" class="MCXref xref">Firewall Log Volume Analysis Dashboard</a>.</li><li>The Firewall Log Security Analysis dashboard provides insights into the firewall security incidents generated from analyzing firewall logs in  your environment. To learn more about this dashboard, see <a href="../analyze/dashboard/firewall-log-security-dashboard.htm" class="MCXref xref">Firewall Log Security Analysis Dashboard</a>.</li></ul><li><p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> now expanded the health information in the Reports page for <span class="mc-variable ALVariables.SIEMless variable">Managed Detection and Response</span> customers. The Daily Health Summary and Weekly Health Summary reports provides insights into issues in your environment related to your protected networks, data collection, and agents. To learn more about the Daily Health Summary report, see <a href="../analyze/reports/service/health/daily-health-summary.htm" class="MCXref xref">Daily Health Summary</a>. </p></li></ul></p>
                                                 </div>
                                                 <h3>Release date: March 31, 2020</h3>
                                                 <h4>Features</h4>
@@ -664,7 +829,7 @@
                                                 <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> has released an improved version of the PCI&#160;Scan Disputes page. You can use the PCI&#160;Scan Dispute to submit disputes for vulnerabilities  in non-compliant scan policies. For more information, see <a href="../configure/pci-scan-dispute.htm" class="MCXref xref">PCI Scan Disputes</a>.</p>
                                                 <h3>Release date: December 3, 2019</h3>
                                                 <h4>Features</h4>
-                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> now includes the option to configure webhooks, which allows <span class="mc-variable ALVariables.Company variable">Alert Logic</span> incident notifications to be sent to any public-facing web server configured to handle HTTP callbacks. For more information, see <a href="../configure/webhooks.htm" class="MCXref xref">Webhooks</a>.</p>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> now includes the option to configure webhooks, which allows <span class="mc-variable ALVariables.Company variable">Alert Logic</span> incident notifications to be sent to any public-facing web server configured to handle HTTP callbacks.</p>
                                                 <h3>Release date: November 6, 2019</h3>
                                                 <h4>Features</h4>
                                                 <p>For <span class="mc-variable ALVariables.Azure variable">Azure</span>-based deployments, <span class="mc-variable ALVariables.Company variable">Alert Logic</span> now supports the ability for customers to use client credentials, defined by role-based access control within the <span class="mc-variable ALVariables.Azure variable">Azure</span> console. Microsoft recommends this method of authentication to reduce service interruptions due to stale username/password combinations. All new users will only be able to use client credentials going forward. Existing customers can continue using their existing username/password combinations until they reset them. For more information on creating the appropriate RBAC roles, see <a href="../prepare/azure-rbac-role-setup.htm" class="MCXref xref">Configure App Registration and RBAC for Microsoft Azure Resources</a>.</p>
@@ -761,7 +926,7 @@
                                                 </table>
                                                 <h3>Release date: October 10, 2019</h3>
                                                 <h4>Feature</h4>
-                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> updated the Saved Searches functionality to expand the options for setting notifications. Users can add one or more users from the same customer account to the list of notification recipients in the saved search panel. For more information, see Create Saved and Scheduled Log Searches.</p>
+                                                <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> updated the Saved Searches functionality to expand the options for setting notifications. Users can add one or more users from the same customer account to the list of notification recipients in the saved search panel.</p>
                                                 <h3>Release date:&#160;September 24, 2019 </h3>
                                                 <h4>Feature</h4>
                                                 <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> released a new feature for customers with <span class="mc-variable ALVariables.Essentials variable">Essentials</span> and <span class="mc-variable ALVariables.Professional variable">Professional</span> subscriptions.</p>
@@ -782,7 +947,7 @@
                                                     <li><span class="mc-variable ALVariables.Company variable">Alert Logic</span> has revamped the following three compliance reports, located in the Compliance tab of the Reports page, to help you demonstrate compliance with some requirements of the Payment Card Industry Data Security Standard (PCI DSS): <ul><li>
                        The PCI Requirement 6.6 report provides <span class="mc-variable ALVariables.WAF_2 variable">WAF</span> deployments, traffic, incidents, and attacks that help demonstrate compliance with Requirement 6.6. For more information about this report, see <a href="../analyze/reports/compliance/PCI-requirement-6.6.htm" class="MCXref xref">PCI Requirement 6.6</a>.
 </li><li>The PCI Requirement 10.5.1 report provides a list of the current log management users that help you demonstrate compliance with Requirement 10.5.1.
-For more information about this report, see <a href="../analyze/reports/compliance/PCI-requirement-10.5.1.htm" class="MCXref xref">PCI Requirement 10.5.1</a>. </li><li>The PCI Requirement 11.4 report shows <span class="mc-variable ALVariables.NetworkIDS variable">Network IDS</span> incidents and customer escalation contacts that help you demonstrate compliance with Requirement 11.4. For more information about this report, see <a href="../analyze/reports/compliance/PCI-requirement-11.4-new.htm" class="MCXref xref">PCI Requirement 11.4</a>.
+For more information about this report, see <a href="../analyze/reports/compliance/PCI-requirement-10.5.1.htm" class="MCXref xref">PCI Requirement 10.5.1</a>. </li><li>The PCI Requirement 11.4 report shows <span class="mc-variable ALVariables.NetworkIDS variable">Network IDS</span> incidents and customer escalation contacts that help you demonstrate compliance with Requirement 11.4. For more information about this report, see <a href="../analyze/reports/compliance/PCI-requirement-11.4.htm" class="MCXref xref">PCI Requirement 11.4</a>.
                                           </li></ul></li>
                                                     <li><span class="mc-variable ALVariables.Company variable">Alert Logic</span> added four new compliance reports, located in the Compliance tab of the Reports page, that provide available documentation and compliance artifacts to help demonstrate compliance with some requirements of the PCI DSS and the Health Insurance Portability and Accountability Act (HIPAA) Security Audit, which include the following: <ul><li> The PCI Requirement 10.6.1 report provides log review incidents and log management incidents that help you demonstrate compliance with Requirement 10.6.1. For more information about this report, see <a href="../analyze/reports/compliance/PCI-requirement-10.6.1.htm" class="MCXref xref">PCI Requirement 10.6.1</a>. </li><li>The HIPAA 164.308(a)(1)(ii)(D)—Information System Activity Review report provides the log review and log management incidents that help demonstrate compliance with HIPAA 164.308(a)(1)(ii)(D). For more information about this report, see <a href="../analyze/reports/compliance/HIPAA-164.308-is-activity-review.htm" class="MCXref xref">HIPAA 164.308(a)(1)(ii)(D)—Information System Activity Review</a>. </li><li>The HIPAA 164.308(a)(6)(ii)—Response and Reporting report provides available documentation and compliance artifacts that help you demonstrate compliance with requirements of  HIPAA 164.308(a)(6)(ii).  For more information about this report,  see <a href="../analyze/reports/compliance/HIPAA-164.308-response-reporting.htm" target="_blank" title="HIPAA 164.308(a)(6)(ii)—Response and Reporting" alt="HIPAA 164.308(a)(6)(ii)—Response and Reporting" class="MCXref xref">HIPAA 164.308(a)(6)(ii)—Response and Reporting</a>.</li><li>The HIPAA 164.308(a)(5)(ii)(C)—Login Monitoring report provides available documentation and compliance artifacts that help you demonstrate compliance with requirements of HIPAA 164.308(a)(5)(ii)(C).  For more information about this report,   see <a href="../analyze/reports/compliance/HIPAA-164.308-login-monitoring.htm" target="_blank" title="HIPAA 164.308(a)(5)(ii)(C)—Login Monitoring" alt="HIPAA 164.308(a)(5)(ii)(C)—Login Monitoring" class="MCXref xref">HIPAA 164.308(a)(5)(ii)(C)—Login Monitoring</a>.</li></ul></li>
                                                     <li><span class="mc-variable ALVariables.Company variable">Alert Logic</span> added the Health report group, which includes two new reports, to the Service tab of the Reports page. The Health reports provide valuable summary and trending data on the health status of protected networks and assets collecting log or network data, which include the following: <ul><li>The Network Health Status Digest report provides insight into the daily issues related to protected networks in your environment, including a comparison of health statuses, top ten lists, and total number of open remediations for each network. For more information about this report, see <a href="../analyze/reports/service/health/network-health-digest.htm" class="MCXref xref">Network Health Status Digest</a>.</li><li> The Collection Issues Digest report provides insight into the daily issues related to log data collection and <span class="mc-variable ALVariables.NetworkIDS variable">Network IDS</span> traffic, including a comparison of health statuses, top five lists, and a list of open remediations to fix configuration issues. For more information about this report, see <a href="../analyze/reports/service/health/collection-issues-digest.htm" class="MCXref xref">Collection Issues Digest</a>.</li></ul></li>
@@ -794,8 +959,8 @@ For more information about this report, see <a href="../analyze/reports/complian
                                                 <h4>Features</h4>
                                                 <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> added significant updates to the Log Search functionality, including the following features:</p>
                                                 <ul>
-                                                    <li>You can organize saved searches into groups. For more information, see Group options.</li>
-                                                    <li>After you move searches to trash, you can restore or permanently delete them. For more information, see Restore or permanently delete a saved search.</li>
+                                                    <li>You can organize saved searches into groups.</li>
+                                                    <li>After you move searches to trash, you can restore or permanently delete them.</li>
                                                 </ul>
                                                 <h3>Release date: April 25, 2019</h3>
                                                 <h4>Feature</h4>
@@ -816,13 +981,13 @@ For more information about this report, see <a href="../analyze/reports/complian
                                                 <h4>Feature</h4>
                                                 <ul>
                                                     <li><span class="mc-variable ALVariables.Company variable">Alert Logic</span> updated the CIS&#160;<span class="mc-variable ALVariables.AWS variable">AWS</span> Foundations Benchmark report in the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span> to support Level 1 and Level 2 of the latest version (1.2.0) of the CIS&#160;<span class="mc-variable ALVariables.AWS variable">AWS</span> Foundations Benchmark. Users can now asses  their <span class="mc-variable ALVariables.AWS variable">AWS</span> accounts against the latest CIS&#160;<span class="mc-variable ALVariables.AWS variable">AWS</span> Foundations Benchmark guidelines, including multi-factor authentications, <span class="mc-variable ALVariables.AWS variable">AWS</span> Config auditing, review of VPC&#160;peering network rules, review of IAM&#160;policies, access key rotation, and other improvements. For more information about the CIS <span class="mc-variable ALVariables.AWS variable">AWS</span> Foundations Benchmark report, see <a href="../analyze/reports/reports.htm#CISbenchmark" class="MCXref xref">Reports Guide</a>.</li>
-                                                    <li><span class="mc-variable ALVariables.Company variable">Alert Logic</span> updated the incident notes in the Incidents page to include the name of the <span class="mc-variable ALVariables.Company variable">Alert Logic</span> analyst who provided the notes and the name of the user who has updated the incident. The notes appear in the Audit Log of the Investigation Report and Recommendation pages, and in the Evidence page. For more information about incident notes, see <a href="../analyze/incidents.htm#investigationReport" class="MCXref xref">Investigation Report</a>.</li>
-                                                    <li><span class="mc-variable ALVariables.Company variable">Alert Logic</span> now includes <span class="mc-variable ALVariables.Company variable">Alert Logic</span> analyst notes in email notifications for incident escalations. This allows users to see the analyst notes provided in the Incidents page immediately without having to log into the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span>.  For information about incident notifications in the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span>, see <a href="../analyze/incidents.htm#Notifications" target="_blank" title="Incident Notifications" alt="Incident Notifications" class="MCXref xref">Incident notifications</a>.</li>
+                                                    <li><span class="mc-variable ALVariables.Company variable">Alert Logic</span> updated the incident notes in the Incidents page to include the name of the <span class="mc-variable ALVariables.Company variable">Alert Logic</span> analyst who provided the notes and the name of the user who has updated the incident. The notes appear in the Audit Log of the Investigation Report and Recommendation pages, and in the Evidence page. For more information about incident notes, see <a href="../analyze/incidents.htm#investigationReport" class="MCXref xref">Incidents</a>.</li>
+                                                    <li><span class="mc-variable ALVariables.Company variable">Alert Logic</span> now includes <span class="mc-variable ALVariables.Company variable">Alert Logic</span> analyst notes in email notifications for incident escalations. This allows users to see the analyst notes provided in the Incidents page immediately without having to log into the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span>.  For information about incident notifications in the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span>, see <a href="../analyze/incidents.htm#Notifications" target="_blank" title="Incident Notifications" alt="Incident Notifications" class="MCXref xref">Incidents</a>.</li>
                                                 </ul>
                                                 <h3>Release date:&#160;April 2, 2019</h3>
                                                 <h4>Feature</h4>
                                                 <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> added notifications for incidents originating from <span class="mc-variable ALVariables.GuardDuty_1 variable">Amazon GuardDuty</span> findings. <span class="mc-variable ALVariables.GuardDuty_2 variable">GuardDuty</span> is a threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect your <span class="mc-variable ALVariables.AWS variable">AWS</span> accounts and workloads. The <span class="mc-variable ALVariables.Company variable">Alert Logic</span><span class="mc-variable ALVariables.GuardDuty_1 variable">Amazon GuardDuty</span> integration lets you view <span class="mc-variable ALVariables.GuardDuty_2 variable">GuardDuty</span> findings in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span> Incidents page. </p>
-                                                <p>The Incidents page allows you to configure notifications for incidents based on their threat levels. With the added notification support, all <span class="mc-variable ALVariables.GuardDuty_2 variable">GuardDuty</span> incidents are available by their threat levels. For guidance and information about <span class="mc-variable ALVariables.GuardDuty_2 variable">GuardDuty</span> findings severity, which corresponds to <span class="mc-variable ALVariables.Company variable">Alert Logic</span> threat level, see <a href="https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings.html#guardduty_findings-severity" title="Amazon documentation for GuardDuty findings and severity" alt="Amazon documentation for GuardDuty findings and severity" target="_blank">Amazon documentation for GuardDuty findings and severity</a>. For information about incident notifications in the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span>, see <a href="../analyze/incidents.htm#Notifications" target="_blank" title="Incident Notifications" alt="Incident Notifications" class="MCXref xref">Incident notifications</a></p>
+                                                <p>The Incidents page allows you to configure notifications for incidents based on their threat levels. With the added notification support, all <span class="mc-variable ALVariables.GuardDuty_2 variable">GuardDuty</span> incidents are available by their threat levels. For guidance and information about <span class="mc-variable ALVariables.GuardDuty_2 variable">GuardDuty</span> findings severity, which corresponds to <span class="mc-variable ALVariables.Company variable">Alert Logic</span> threat level, see <a href="https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings.html#guardduty_findings-severity" title="Amazon documentation for GuardDuty findings and severity" alt="Amazon documentation for GuardDuty findings and severity" target="_blank">Amazon documentation for GuardDuty findings and severity</a>. For information about incident notifications in the <span class="mc-variable ALVariables.ALUI variable">Alert Logic console</span>, see <a href="../analyze/incidents.htm#Notifications" target="_blank" title="Incident Notifications" alt="Incident Notifications" class="MCXref xref">Incidents</a></p>
                                                 <h3>Release date: March 12, 2019</h3>
                                                 <h4>Features</h4>
                                                 <ul>
@@ -1015,14 +1180,18 @@ For more information about this report, see <a href="../analyze/reports/complian
                                     </div>
                                     <div class="top-nav">
                                         <ul class="top-nav-list">
-                                            <li class="top-nav-list-item"><a href="/">Home</a>
+                                            <li class="top-nav-list-item"><a href="https://docs.alertlogic.com">Home</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://www.alertlogic.com">Main website</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://legacy.docs.alertlogic.com">Legacy Docs</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://support.alertlogic.com">Support</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://developer.alertlogic.com/">Developer</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://legacy.docs.alertlogic.com">Legacy documentation</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://support.alertlogic.com">Support</a>
                                             </li>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://www.alertlogic.com">AlertLogic.com</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="in-page-toc" data-toc="#mc-main-content" data-toc-headings="h2">
                                         </ul>
                                     </div>
                                 </div>

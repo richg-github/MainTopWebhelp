@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Main_HTML5___Side_Navigation_Skin" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-searchable="True" data-mc-toc-path="Analyze|[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Main_HTML5___Side_Navigation_Skin" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-searchable="True" data-mc-toc-path="Analyze|[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
@@ -12,7 +12,7 @@
         <link rel="shortcut icon" href="../../Skins/Favicons/favicon.png" />
         <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
         <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
-        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" /><title>Manage Scan Schedules</title>
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" /><title>Manage Vulnerability Scan Schedules</title>
         <meta http-equiv="Cache-control" content="no-cache" />
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -20,16 +20,12 @@
         <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <style>@import url('https://dl.dropboxusercontent.com/s/q5nt7ghnm4mfv88/override-main.css');
-
-</style>
-        <style>@import url('https://dl.dropboxusercontent.com/s/2w0nz28scrsaqf2/mainOveride.css');
-
-</style>
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Resources/Stylesheets/mainStyles.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -88,9 +84,17 @@
         </script>
         <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
         </script>
+        <script src="../../Resources/Scripts/jquery.toc/jquery.toc.js" type="text/javascript">
+        </script>
+        <script>/* <![CDATA[ */(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-MDHH9ML');/* ]]> */</script>
         <script>/* <![CDATA[ */
 			$(document).ready(function(){
 				$(".top-nav").appendTo("div.logo-wrapper");
+				$(".in-page-toc").appendTo("div.main-section");
 			});
 		/* ]]> */</script>
     </head>
@@ -118,7 +122,7 @@
                                 </div>
                             </div>
                             <div class="title-bar-layout outer-row">
-                                <div class="logo-wrapper"><a class="logo" href="../../main-home.htm" alt="Logo"></a>
+                                <div class="logo-wrapper"><a class="logo" href="../../home.htm" alt="Logo"></a>
                                 </div>
                                 <div class="navigation-wrapper nocontent">
                                     <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
@@ -171,6 +175,8 @@
                             </nav>
                             <div class="body-container">
                                 <div data-mc-content-body="True">
+                                    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDHH9ML" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                                    </noscript>
                                     <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Main_Toolbar mc-component nocontent" style="mc-topic-toolbar-items: ;">
                                         <div class="button-group-container-left">
                                             <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
@@ -210,14 +216,14 @@
                                         </div>
                                     </div>
                                     <div role="main" id="mc-main-content">
-                                        <h1>Manage Scan Schedules</h1>
+                                        <h1>Manage Vulnerability Scan Schedules</h1>
                                         <div>
-                                            <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> performs scans on all assets in your deployments.  When you <a href="../../get-started/deployments.htm">create a deployment</a>, <span class="mc-variable ALVariables.Company variable">Alert Logic</span> automatically creates default scan schedules to perform external and internal vulnerability scans on all non-excluded assets and ports that vary according to deployment type.  You can enable the default schedule for agent-based scans, which detect vulnerabilities and missing patches on hosts with an  agent installed. A default discovery scan finds new assets in Data Center deployments.</p>
+                                            <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> performs scans on all assets in your deployments.  When you <a href="../../get-started/deployments.htm">create a deployment</a>, <span class="mc-variable ALVariables.Company variable">Alert Logic</span> automatically creates default scan schedules to perform internal and external network vulnerability scans on all non-excluded assets and ports that vary according to deployment type.  You can enable the default schedule for agent-based scans, which detect vulnerabilities and missing patches on hosts with an  agent installed.</p>
                                         </div>
                                         <p>You can also schedule when you want  to perform specific scans. From the Scan Schedules page in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span>, you can edit the default schedule and create additional schedules for all or selected assets and ports within the  of the deployment. </p>
-                                        <p>For more information about scan types you can schedule and managing scan schedules, see:</p>
+                                        <p>For more information about scan types that you can schedule and managing scan schedules, see:</p>
                                         <ul>
-                                            <li><a href="#Scantypes" class="MCXref xref">Scan types</a>
+                                            <li><a href="#Vulnerabilityscantypes" class="MCXref xref">Vulnerability scan types</a>
                                             </li>
                                             <li><a href="#Defaultscanschedules" class="MCXref xref">Default scan schedules</a>
                                             </li>
@@ -237,73 +243,47 @@
                                             </li>
                                         </ul>
                                         <div class="note">
-                                            <p>PCI scan management is not covered in this topic. For information about PCI scans, see <a href="../../configure/pci-scans.htm#Manage2" class="Bookmark MCXref xref xrefBookmark">Manage PCI Scans</a>. </p>
+                                            <p>PCI scan management and discovery scan management for Data Center deployments are not covered in this topic. For information about PCI scans, see <a href="../../configure/pci-scans.htm#Manage2" class="Bookmark MCXref xref xrefBookmark">Manage PCI Scans</a>. For information about discovery scans, see <a href="discovery-schedules.htm" class="MCXref xref">Manage Discovery Scan Schedules</a>.</p>
                                         </div>
                                         <div class="note">
                                             <p>Exclusions, scan frequency, and scheduling options apply only to assets that are scanned using <span class="mc-variable ALVariables.Company variable">Alert Logic</span> appliances. Cloud configuration checks performed using cloud APIs, such as checks that are part of the CIS Foundations benchmark, are not affected. </p>
                                         </div>
-                                        <h2>Scan types<a name="Scantypes"></a></h2>
-                                        <p>You can schedule the following types of scans:</p>
+                                        <h2>Vulnerability scan types<a name="Vulnerabilityscantypes"></a></h2>
+                                        <p>You can schedule the following types of vulnerability scans:</p>
                                         <ul>
-                                            <li>Discovery Scans—Scan for new assets or asset changes on your networks. Discovery scans are available for Data Center deployments only.</li>
                                             <li>Agent-Based Scans—Scan for vulnerabilities and missing patches on hosts with an  <span class="mc-variable ALVariables.Company variable">Alert Logic</span> agent installed. Agent-based scans are available for all deployments, but you must enable   agent-based scanning if you want to run them.</li>
-                                            <li>Internal Network Scans—Scan for vulnerable assets and ports, internally, from an <span class="mc-variable ALVariables.Company variable">Alert Logic</span> appliance in your environment. Internal vulnerability scans are available for all deployments.</li>
-                                            <li>External Network Scans—Scan for vulnerable assets and ports, externally, from the <span class="mc-variable ALVariables.Company variable">Alert Logic</span> system against your environment. This type of scan simulates attacks from outside your network and identifies potential issues from these attack types. External scans are available for all deployments.</li>
+                                            <li>Internal Network Scans—Scan for vulnerable assets and ports, internally, from an <span class="mc-variable ALVariables.Company variable">Alert Logic</span> appliance in your environment. Internal network vulnerability scans are available for all deployments.</li>
+                                            <li>External Network Scans—Scan for vulnerable assets and ports, externally, from the <span class="mc-variable ALVariables.Company variable">Alert Logic</span> system against your environment. This type of scan simulates attacks from outside your network and identifies potential issues from these attack types. External network scans are available for all deployments.</li>
                                         </ul>
                                         <p>After you define the scope of protection for your deployment, you can create and manage your scan schedules at any time. </p>
                                         <p>For more information about scan types and scanning best practice, see <a href="../../deploy/about-scans.htm" class="MCXref xref">About Alert Logic Scans</a>. </p>
                                         <h2>Default scan schedules<a name="Defaultscanschedules"></a></h2>
-                                        <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> default scan schedules vary according to deployment type.</p>
+                                        <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> default schedules for vulnerability scans vary according to deployment type.</p>
                                         <h3>Data Center deployment</h3>
-                                        <p>The default discovery scan schedule for a Data Center deployment scans all assets in the scope of protection once a week, at any time. You can change the scan frequency and window when you want the discovery scan to occur, but not the schedule name or scope. You cannot deactivate or delete the default discovery scan schedule.</p>
                                         <p>If you enable agent-based scanning for the deployment, the default agent-based scan schedule for a Data Center deployment scans all hosts with the <span class="mc-variable ALVariables.AgentName variable">Alert Logic agent</span> installed that are in the scope of protection twice a day, at any time. You can change the scan frequency, window, and asset scope of the default agent-based scan but not the schedule name. You can make the default agent-based scan schedule inactive, but you cannot delete it. You can also choose to use the default internal network scan schedule for agent-based scans if you prefer to manage fewer schedules. For more information, see <a href="agent-based-scan.htm" class="MCXref xref">Agent-Based Scanning</a></p>
-                                        <p>The default internal and external vulnerability scan schedules for a Data Center deployment scan all assets in the scope of protection once a week, at any time. The default schedule for ports is the same and includes all TCP ports and common UDP ports  that are in the scope of protection. You can change the scan frequency, window, asset scope, and port scope of the default vulnerability scans but not the schedule name. You can make the default vulnerability scan schedules inactive, but you cannot delete them.</p>
+                                        <p>The default internal network scan schedule for a Data Center deployment scans all assets in the scope of protection once a week, at any time. The default schedule for ports is the same and includes all TCP ports and common UDP ports  that are in the scope of protection. You can change the scan frequency, window, asset scope, and port scope of the default  schedule but not the schedule name. The default schedule is inactive when you create a deployment. If you want to use the default schedule, <a href="#Activateordeactivateascanschedule">activate it</a> when ready. You can leave the default schedule inactive, but you cannot delete it.</p>
+                                        <p>The default external network scan schedule for a Data Center deployment scans all assets once a week, at any time. The default schedule for ports is the same and includes all TCP ports and common UDP ports. You can change the scan frequency, window, asset scope, and port scope of the default schedule but not the schedule name. The default schedule is inactive when you create a deployment. If you want to use the default schedule, <a href="#Activateordeactivateascanschedule">activate it</a> when ready. You can leave the default schedule inactive, but you cannot delete it.</p>
                                         <h3><span class="mc-variable ALVariables.AWS variable">AWS</span> deployments</h3>
                                         <p>If you enable agent-based scanning for the deployment, the default agent-based scan schedule for <span class="mc-variable ALVariables.AWS variable">AWS</span> deployments scans all hosts with the <span class="mc-variable ALVariables.AgentName variable">Alert Logic agent</span> installed that are in the scope of protection twice a day, at any time. You can change the scan frequency, window, and asset scope of the default agent-based scan but not the schedule name. You can make the default agent-based scan schedule inactive, but you cannot delete it. You can also choose to use the internal network scan schedules for agent-based scans if you prefer to manage fewer schedules. For more information, see <a href="agent-based-scan.htm" class="MCXref xref">Agent-Based Scanning</a></p>
-                                        <p>The default internal and external vulnerability scan schedules for <span class="mc-variable ALVariables.AWS variable">AWS</span> deployments scan all assets  in the scope of protection as often as necessary (once a day, or twice a day if significant changes  to an asset are detected), at any time. The default schedule for ports is the same and includes all ports in <span class="mc-variable ALVariables.AWS variable">AWS</span> security groups that are in the scope of protection. You can change the scan frequency, window, asset scope, and port scope of the default internal and external scans but not the schedule name. You can make the default vulnerability scan schedules inactive, but you cannot delete them.</p>
+                                        <p>The default internal network scan schedule for <span class="mc-variable ALVariables.AWS variable">AWS</span> deployments scans all assets  in the scope of protection as often as necessary (once a day, or twice a day if significant changes  to an asset are detected), at any time. The default schedule for ports is the same and includes all ports in <span class="mc-variable ALVariables.AWS variable">AWS</span> security groups that are in the scope of protection. You can change the scan frequency, window, asset scope, and port scope of the default schedule but not the schedule name. The default schedule is inactive when you create a deployment. If you want to use the default schedule, <a href="#Activateordeactivateascanschedule">activate it</a> when ready. You can leave the default schedule inactive, but you cannot delete it.</p>
+                                        <p>The default external network scan schedule for <span class="mc-variable ALVariables.AWS variable">AWS</span> deployments scans all assets as often as necessary (once a day, or twice a day if significant changes  to an asset are detected), at any time. The default schedule for ports is the same and includes all ports in <span class="mc-variable ALVariables.AWS variable">AWS</span> security groups. You can change the scan frequency, window, asset scope, and port scope of the default schedule but not the schedule name. The default schedule is inactive when you create a deployment. If you want to use the default schedule, <a href="#Activateordeactivateascanschedule">activate it</a> when ready. You can leave the default schedule inactive, but you cannot delete it.</p>
                                         <h3><span class="mc-variable ALVariables.Azure variable">Azure</span> deployments</h3>
                                         <p>If you enable agent-based scanning for the deployment, the default agent-based scan schedule for <span class="mc-variable ALVariables.Azure variable">Azure</span> deployments scans all hosts with the <span class="mc-variable ALVariables.AgentName variable">Alert Logic agent</span> installed that are in the scope of protection twice a day, at any time. You can change the scan frequency, window, and asset scope of the default agent-based scan but not the schedule name. You can make the default agent-based scan schedule inactive, but you cannot delete it. You can also choose to use the internal network scan schedules for agent-based scans if you prefer to manage fewer schedules. For more information, see <a href="agent-based-scan.htm" class="MCXref xref">Agent-Based Scanning</a></p>
-                                        <p>The default internal and external vulnerability scan schedules for <span class="mc-variable ALVariables.Azure variable">Azure</span> deployments scan all assets in the scope of protection as often as necessary (once a day, or twice a day if significant changes  to an asset are detected), at any time. The default schedule for ports is the same and includes all TCP ports and common UDP ports  that are in the scope of protection. You can change the scan frequency, window, asset scope, and port scope of the default vulnerability scans but not the schedule name. You can make the default vulnerability scan schedules inactive, but you cannot delete them.</p>
+                                        <p>The default internal network scan schedule for <span class="mc-variable ALVariables.Azure variable">Azure</span> deployments scans all assets in the scope of protection as often as necessary (once a day, or twice a day if significant changes  to an asset are detected), at any time. The default schedule for ports is the same and includes all TCP ports and common UDP ports  that are in the scope of protection. You can change the scan frequency, window, asset scope, and port scope of the default scan but not the schedule name. The default schedule is inactive when you create a deployment. If you want to use the default schedule, <a href="#Activateordeactivateascanschedule">activate it</a> when ready. You can leave the default schedule inactive, but you cannot delete it.</p>
+                                        <p>The default external network scan schedule for <span class="mc-variable ALVariables.Azure variable">Azure</span> deployments scans all assets as often as necessary (once a day, or twice a day if significant changes  to an asset are detected), at any time. The default schedule for ports is the same and includes all TCP ports and common UDP ports. You can change the scan frequency, window, asset scope, and port scope of the default schedule but not the schedule name. The default schedule is inactive when you create a deployment. If you want to use the default schedule, <a href="#Activateordeactivateascanschedule">activate it</a> when ready. You can leave the default schedule inactive, but you cannot delete it.</p>
                                         <h2>Create a scan schedule<a name="Createascanschedule"></a></h2>
-                                        <p>You can choose the frequency of scans and when you want <span class="mc-variable ALVariables.Company variable">Alert Logic</span> to perform scans for each deployment. For agent-based scans, you can choose whether to scan all or selected assets within the scope of protection, but only hosts with the <span class="mc-variable ALVariables.AgentName variable">Alert Logic agent</span> will be scanned. For internal and external vulnerability scans,  you can choose whether to scan all or selected assets and ports within the scope of protection.</p>
+                                        <p>You can choose the frequency of scans and when you want <span class="mc-variable ALVariables.Company variable">Alert Logic</span> to perform scans for each deployment. For agent-based scans, you can choose whether to scan all or selected assets within the scope of protection, but only hosts with the <span class="mc-variable ALVariables.AgentName variable">Alert Logic agent</span> will be scanned. For internal and external network vulnerability scans,  you can choose whether to scan all or selected assets and ports within the scope of protection.</p>
                                         <div class="note">Schedules with the same or overlapping scan windows result in one scan.</div>
                                         <p><b>To create a scan schedule</b>:</p>
                                         <ol>
-                                            <li value="1">In the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span>, click <img src="../../Resources/Images/dashboard/configure-icon.png" style="vertical-align: bottom;" /><b>Configure</b>, click <b>Deployments</b>, and then click the deployment for which you want to create a scan schedule.</li>
-                                            <li value="2">On the side navigation, click <b>Scan Schedules</b>.</li>
-                                            <li value="3">On the Scan Schedules page, click <b>Discovery Scans</b>, <b>Agent-Based Scans</b>, <b>Internal Network Scans</b>, or <b>External Network Scans</b>.<div class="note">For <span class="mc-variable ALVariables.AWS_1 variable">Amazon Web Services (AWS)</span> deployments&#160;and <span class="mc-variable ALVariables.Azure_1 variable">Microsoft Azure</span> deployments, discovery scans are not available.</div></li>
-                                            <li value="4">Click the add icon (<img src="../../Resources/Images/Icons/cdAddPlus.png" style="vertical-align: bottom;" />).</li>
-                                            <li value="5">Type a descriptive name for the scan schedule. The name cannot exceed 127 characters.</li>
-                                            <li value="6">If you want the schedule to be active, leave  <b>Schedule Is Active</b> turned on. Turn it off if you want to save the schedule but not activate it yet.</li>
+                                            <li value="1">In the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span>, click the menu icon (<img src="../../Resources/Images/dashboard/menu-icon.png" style="vertical-align: bottom;" />).</li>
+                                            <li value="2">Click <img src="../../Resources/Images/dashboard/configure-icon.png" style="vertical-align: bottom;" /><b>Configure</b>, click <b>Deployments</b>, and then click the deployment for which you want to create a scan schedule.</li>
+                                            <li value="3">In the left panel, click <b>Scan Schedules</b>.</li>
+                                            <li value="4">On the Scan Schedules page, click <b>Agent-Based Scans</b>, <b>Internal Network Scans</b>, or <b>External Network Scans</b>.</li>
+                                            <li value="5">Click the add icon (<img src="../../Resources/Images/Icons/cdAddPlus.png" style="vertical-align: bottom;" />).</li>
+                                            <li value="6">Type a descriptive name for the scan schedule. The name cannot exceed 127 characters.</li>
+                                            <li value="7">If you want the schedule to be active, turn on <b>Schedule Is Active</b>. Turn it off if you want to save the schedule but not activate it yet.</li>
                                         </ol>
-                                        <div>
-                                            <h3>Discovery scans</h3>
-                                            <h4>Schedule how often to scan</h4>
-                                            <p>To schedule how often you want  to scan for new networks or asset changes on your networks, choose one of the following scan frequency options: </p>
-                                            <ul>
-                                                <li><b>Scan as often as necessary</b>—Select this option if you want to scan for new assets  on your networks up to twice a day or when significant changes are detected, such as the addition of a network. This option automatically scans all assets selected on the Scope tab at least once in a 24-hour period. The option attempts a second scan depending on resources and changes to your environment. Scans on networks or hosts added that day, for example, occur immediately and take priority over second scans. Assets that were not scanned twice take priority the next day.             </li>
-                                                <li><b>Scan once a day</b>
-                                                </li>
-                                                <li><b>Scan once a week</b>
-                                                </li>
-                                            </ul>
-                                            <h4>Schedule when to scan</h4>
-                                            <p>To schedule when you want  to scan for new networks or asset changes on your networks, choose one of the following scan window options:</p>
-                                            <ul>
-                                                <li><b>Scan any time</b>—Select this option if you do not want to limit  scans to certain days or times.
-</li>
-                                                <li><b>Scan only during certain times</b>—Select this option to choose the specific days and hours for this scan. You can define multiple scan windows if you chose <b>Scan as often as necessary</b> or <b>Scan once a week</b> as the frequency. If all assets are not scanned during a window, the unscanned assets take priority at the start of the next scan window.</li>
-                                            </ul>
-                                            <h4>Define the scope of the scan</h4>
-                                            <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> scans all current and future assets in the scope of protection by default. You can choose to scan specific assets for this schedule instead. To <a href="#Excludeassetsandportsfromscans">exclude assets from all scans</a>, not just this schedule, exclude them on the Scope of Protection page for the deployment.</p>
-                                            <p>To select specific assets that you want  to scan within the scope of protection, click the <b>Scope</b> tab and choose one of the following options:</p>
-                                            <ul>
-                                                <li><b>Scan all assets</b>—Click this option to scan all current and future assets in the scope of protection.</li>
-                                                <li><b>Scan only selected assets</b><span style="font-family: 'Microsoft Sans Serif'">—</span>Click this option to search for and choose assets and <span class="mc-variable ALVariables.AWS variable">AWS</span> tags (for <span class="mc-variable ALVariables.AWS variable">AWS</span> deployments)  that you want to include in the scan schedule. You can also enter IP addresses, IP&#160;address ranges, or CIDRs. When finished selecting assets, click <b>ADD TO&#160;SCAN SCOPE</b>.</li>
-                                            </ul>
-                                            <div class="note" data-mc-conditions="SnippetConditions.ExcludedText">If you select assets on this tab and later exclude them from the scope of protection, the assets remain selected   but will no longer be scanned.</div>
-                                            <p>Click <b>SAVE</b>, and then click <b>NEXT</b>.</p>
-                                        </div>
                                         <div>
                                             <h3>Agent-based scans</h3>
                                             <h4>Schedule how often to scan</h4>
@@ -318,31 +298,32 @@
                                                 </li>
                                                 <li><b>Scan once a month</b>
                                                 </li>
-                                                <li><b>Scan once</b>—Select this option if you want to scan assets selected on the Scope tab once, starting at a specific time. For example, to verify a patch or remediation action, you could use this option to schedule a scan of several assets to start within the next five minutes  instead of waiting for the next regularly scheduled scan.</li>
+                                                <li><b>Scan once</b>—Select this option if you want to scan assets selected on the Scope tab once, starting at a specific time. For example, to verify a patch or remediation action, you can use this option to schedule a scan of several assets to start within the next five minutes  instead of waiting for the next regularly scheduled scan.</li>
                                             </ul>
                                             <h4>Schedule when to scan</h4>
                                             <p>To scan  for vulnerabilities and missing patches on hosts with an  <span class="mc-variable ALVariables.Company variable">Alert Logic</span> agent installed, choose one of the following scan window options:</p>
                                             <ul>
                                                 <li><b>Scan any time</b>—Select this option if you do not want to limit  scans to certain days or times.
-</li>
+				</li>
                                                 <li><b>Scan only during certain times</b>—Select this option to choose the specific days and hours for this scan. You can define multiple scan windows if you chose <b>Scan as often as necessary</b>, <b>Scan once a week</b>, <b>Scan once every two weeks</b>, or <b>Scan once a month</b> as the frequency. If all assets are not scanned during a window, the unscanned assets take priority at the start of the next scan window.</li>
                                                 <li><b>Scan only during certain times on certain days</b> (available if you choose <b>Scan once a month</b> as the scan frequency)</li>
                                                 <li><b>Scan only during a certain week on a certain day</b> (available if you choose <b>Scan once a month</b> as the scan frequency)</li>
                                             </ul>
                                             <p>If you chose <b>Scan once</b> as the frequency, specify the time zone, start day and time, and  end day and time for the scan.</p>
                                             <h4>Define the scope of the scan</h4>
-                                            <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> scans all current and future assets in the scope of protection by default. You can choose to scan specific assets for this schedule instead. </p>
+                                            <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> scans all current and future assets in the scope of protection by default. You can choose to scan specific assets for this schedule instead. To <a href="#Excludeassetsandportsfromscans">exclude assets from all scans</a>, not just this schedule, exclude them on the Scan Exclusions page for the deployment.</p>
                                             <p>To select specific assets that you want  to scan within the scope of protection, click the <b>Scope</b> tab and choose one of the following options:</p>
                                             <ul>
                                                 <li><b>Scan all assets</b>—Click this option to scan all current and future assets in the scope of protection.</li>
-                                                <li><b>Scan only selected assets</b><span style="font-family: 'Microsoft Sans Serif'">—</span>Click this option to search for and choose assets and <span class="mc-variable ALVariables.AWS variable">AWS</span> tags (for <span class="mc-variable ALVariables.AWS variable">AWS</span> deployments)  that you want to include in the scan schedule. You can also enter IP addresses, IP&#160;address ranges, or CIDRs. When finished selecting assets, click <b>ADD TO&#160;SCAN SCOPE</b>.</li>
+                                                <li><b>Scan only selected assets</b><span style="font-family: 'Microsoft Sans Serif'">—</span>Click this option to search for and choose assets and <span class="mc-variable ALVariables.AWS variable">AWS</span> tags (for <span class="mc-variable ALVariables.AWS variable">AWS</span> deployments)  that you want to include in the scan schedule. You can also enter IP addresses, IP&#160;address ranges, or CIDRs. When you finish selecting assets, click <b>ADD TO&#160;SCAN SCOPE</b>.</li>
                                             </ul>
+                                            <div class="note">If you select assets on this tab and later exclude them from the scope of protection on the Scan Exclusions page, the assets remain selected   but are no longer scanned.</div>
                                             <p>You can select hosts that do not have an <span class="mc-variable ALVariables.AgentName variable">Alert Logic agent</span> installed on them yet, but the agent-based scan does not occur until you actually install the agent on the hosts. In the list that allows you to search for assets, an agent icon (<img src="../../Resources/Images/agent-based-scan/agent-icon_33x32.png" style="vertical-align: bottom;width: 33;height: 32;" />) indicates hosts with an <span class="mc-variable ALVariables.AgentName variable">Alert Logic agent</span> installed.  </p>
                                             <p>Click <b>SAVE</b>, and then click <b>NEXT</b>.</p>
                                         </div>
-                                        <h3>Internal scans and External scans <a name="Vulnerability_Scans"></a></h3>
+                                        <h3>Internal network scans and external network scans <a name="Vulnerability_Scans"></a></h3>
                                         <h4>Schedule how often to scan</h4>
-                                        <p>To schedule how often you want  to scan for vulnerabilities on your internal networks, choose one of the following scan frequency options: </p>
+                                        <p>To schedule how often you want  to scan for vulnerabilities on your internal or external networks, choose one of the following scan frequency options: </p>
                                         <ul>
                                             <li><b>Scan as often as necessary</b>—Select this option if you want  to scan assets for vulnerabilities up to twice  a day or when significant changes  to an asset are detected, such as the addition of a network. This option automatically scans all the assets you selected on the Scope tab at least once in a 24-hour period. The option attempts a second scan depending on resources and changes to your environment. Scans on networks or hosts added that day, for example, occur immediately and take priority over second scans. Assets that were not scanned twice take priority the next day.             </li>
                                             <li style="font-weight: bold;">Scan once a day</li>
@@ -350,16 +331,16 @@
                                             <li style="font-weight: bold;">Scan once every two weeks</li>
                                             <li style="font-weight: bold;">Scan once a month</li>
                                             <li style="font-weight: bold;">Scan once a quarter</li>
-                                            <li style="font-weight: bold;"><b>Scan once</b><span style="font-weight: normal;">—Select this option if you want to scan assets selected on the Scope tab once, starting at a specific time. For example, to verify a patch or remediation action, you could use this option to schedule a scan of several assets to start within the next five minutes  instead of waiting for the next regularly scheduled scan.</span>
+                                            <li style="font-weight: bold;"><b>Scan once</b><span style="font-weight: normal;">—Select this option if you want to scan assets selected on the Scope tab once, starting at a specific time. For example, to verify a patch or remediation action, you can use this option to schedule a scan of several assets to start within the next five minutes  instead of waiting for the next regularly scheduled scan.</span>
                                             </li>
                                         </ul>
                                         <h4>Schedule when to scan</h4>
                                         <p>
-To schedule when you want  to scan for vulnerabilities, choose one of the following scan window options:        </p>
+		To schedule when you want  to scan for vulnerabilities, choose one of the following scan window options:        </p>
                                         <ul>
                                             <li><b>Scan any time</b>—Select this option if you do not want to limit  scans to certain days or times.
  
-                </li>
+			</li>
                                             <li><b>Scan only during certain times</b>—Select this option to choose the specific days and hours for this scan. For a quarterly scan, you can also choose the specific month of the quarter for this scan. You can define multiple scan windows if you chose <b>Scan as often as necessary</b>, <b>Scan once a week</b>, <b>Scan once every two weeks</b>, <b>Scan once a month</b>, or <b>Scan once a quarter</b> as the frequency.</li>
                                             <li><b>Scan only during certain times on certain days</b> (available if you choose <b>Scan once a month</b> or <b>Scan once a quarter</b> as the scan frequency)</li>
                                             <li><b>Scan only during a certain week on a certain day</b> (available if you choose <b>Scan once a month</b> as the scan frequency)</li>
@@ -372,15 +353,15 @@ To schedule when you want  to scan for vulnerabilities, choose one of the follow
                                             </li>
                                         </ul>
                                         <h4>Define the scope of the assets to scan<a name="Definethescopeoftheassetstoscan"></a></h4>
-                                        <p><span class="mc-variable ALVariables.Company variable">Alert Logic</span> scans all current and future assets in the scope of protection by default. You can choose to scan specific assets for this schedule instead. To <a href="#Excludeassetsandportsfromscans">exclude assets from all scans</a>, not just this schedule, exclude them on the Scope of Protection page for the deployment.</p>
+                                        <p>For internal network scans, <span class="mc-variable ALVariables.Company variable">Alert Logic</span> scans all current and future assets in the scope of protection by default. For external network scans, <span class="mc-variable ALVariables.Company variable">Alert Logic</span> scans all current and future assets by default. You can choose to scan specific assets for this schedule instead. To <a href="#Excludeassetsandportsfromscans">exclude assets from all scans</a>, not just this schedule, exclude them on Scan Exclusions page for the deployment.</p>
                                         <p>To select specific assets that you want  to scan within the scope of protection, click the <b>Scope</b> tab and choose one of the following options:</p>
                                         <ul>
                                             <li><b>Scan all assets</b>—Click this option to scan all current and future assets in the scope of protection.</li>
-                                            <li><b>Scan only selected assets</b><span style="font-family: 'Microsoft Sans Serif'">—</span>Click this option to search for and choose assets and <span class="mc-variable ALVariables.AWS variable">AWS</span> tags (for <span class="mc-variable ALVariables.AWS variable">AWS</span> deployments)  that you want to include in the scan schedule. You can also enter IP addresses, IP&#160;address ranges, or CIDRs. When finished selecting assets, click <b>ADD TO&#160;SCAN SCOPE</b>.</li>
+                                            <li><b>Scan only selected assets</b><span style="font-family: 'Microsoft Sans Serif'">—</span>Click this option to search for and choose assets and <span class="mc-variable ALVariables.AWS variable">AWS</span> tags (for <span class="mc-variable ALVariables.AWS variable">AWS</span> deployments)  that you want to include in the scan schedule. You can also enter IP addresses, IP&#160;address ranges, or CIDRs. When you finish selecting assets, click <b>ADD TO&#160;SCAN SCOPE</b>.</li>
                                         </ul>
-                                        <div class="note" data-mc-conditions="SnippetConditions.ExcludedText">If you select assets on this tab and later exclude them from the scope of protection, the assets remain selected   but will no longer be scanned.</div>
+                                        <div class="note">If you select assets on this tab and later exclude them from the scope of protection on the Scan Exclusions page, the assets remain selected   but are no longer scanned.<MadCap:conditionalText data-mc-conditions="SnippetConditions.ExcludedText"> Scope of protection and scan exclusion settings do not apply to external network scans. </MadCap:conditionalText></div>
                                         <h4>Define the ports to scan</h4>
-                                        <p>For Data Center and <span class="mc-variable ALVariables.Azure variable">Azure</span> deployments, <span class="mc-variable ALVariables.Company variable">Alert Logic</span> scans all TCP ports and common UDP&#160;ports in the scope of protection by default. For <span class="mc-variable ALVariables.AWS variable">AWS</span> deployments, <span class="mc-variable ALVariables.Company variable">Alert Logic</span>&#160;scans all current ports from your security groups included in the scope of protection by default. You can choose to scan specific ports for this schedule instead. You can choose one or more port groups to scan and/or enter a list of custom ports. For advice on scan frequencies, see <a href="../../deploy/about-scans.htm#Portscanfrequencyrecommendations" class="MCXref xref">Port scan frequency recommendations</a>. To <a href="#Excludeassetsandportsfromscans">exclude ports from all scans</a>, not just this schedule, exclude them on the Scope of Protection page for the deployment. </p>
+                                        <p>For Data Center and <span class="mc-variable ALVariables.Azure variable">Azure</span> deployments, <span class="mc-variable ALVariables.Company variable">Alert Logic</span> scans all TCP ports and common UDP&#160;ports in the scope of protection by default. For <span class="mc-variable ALVariables.AWS variable">AWS</span> deployments, <span class="mc-variable ALVariables.Company variable">Alert Logic</span>&#160;scans all current ports from your security groups included in the scope of protection by default. You can choose to scan specific ports for this schedule instead. You can choose one or more port groups to scan and/or enter a list of custom ports. For advice on scan frequencies, see <a href="../../deploy/about-scans.htm#Portscanfrequencyrecommendations" class="MCXref xref">Port scan frequency recommendations</a>. To <a href="#Excludeassetsandportsfromscans">exclude ports from all scans</a>, not just this schedule, exclude them on the Scan Exclusions page for the deployment. </p>
                                         <p>To select specific ports that you want  to scan within the scope of protection, click the <b>Ports</b> tab and choose one of the following options: </p>
                                         <ul>
                                             <li><b>Scan only ports from security groups</b>—(<span class="mc-variable ALVariables.AWS variable">AWS</span> deployments only) Click this option to scan all current ports from your <span class="mc-variable ALVariables.AWS variable">AWS</span> security groups.</li>
@@ -430,11 +411,11 @@ To schedule when you want  to scan for vulnerabilities, choose one of the follow
                                             </tbody>
                                         </table>
                                         <h2>View scan schedules and details<a name="Viewscanschedulesanddetails"></a></h2>
-                                        <p>In the Scan Schedules page, you can view a list of all scan schedules, including default scan schedules, in your deployment. When you browse the list, you can see the following information:</p>
+                                        <p>On the Scan Schedules page, you can view a list of all scan schedules, including default scan schedules, in your deployment. When you browse the list, you can see the following information:</p>
                                         <ul>
                                             <li>Indication of the scan cadence, such as automatic, daily, weekly, monthly, or once</li>
                                             <li>Scan progress, which includes the last scan date, an indication that the scan is in progress, or notice that the last scan was incomplete</li>
-                                            <li>Number of targets in the scan scope. This is the number of target CIDRs (for a discovery scan) or target hosts (for a vulnerability scan) in the assets selected on the Scope tab.</li>
+                                            <li>Number of targets in the scan scope. This is the number of target hosts  in the assets selected on the Scope tab.</li>
                                             <li>Scan schedule status: Active or Inactive</li>
                                             <li>For agent-based scans, whether agent-based scans use  internal network scan schedules instead of agent-based scan schedules</li>
                                         </ul>
@@ -448,9 +429,9 @@ To schedule when you want  to scan for vulnerabilities, choose one of the follow
                                         </ul>
                                         <p>You can also  stop a scan in progress, activate or deactivate the schedule, and view additional schedule details from the list. </p>
                                         <h3>Access the Scan Schedules page<a name="AccesstheScanSchedulespage"></a></h3>
-                                        <p>To access the Scan Schedules page and view your list of schedules, access the deployment for which you want to view scan schedules, and then click <b>Scan Schedules</b> on the side navigation.</p>
+                                        <p>To access the Scan Schedules page and view your list of schedules, access the deployment for which you want to view scan schedules, and then click <b>Scan Schedules</b> in the left  panel.</p>
                                         <h3>View the details of a scan schedule </h3>
-                                        <p>In the Scan Schedules page, click <b>View</b> next to a listed schedule to see  scan schedule details, scan frequency and window, asset scope, and ports.</p>
+                                        <p>On the Scan Schedules page, click <b>View</b> next to a listed schedule to see  scan schedule details, scan frequency and window, asset scope, and ports.</p>
                                         <p style="font-weight: bold;">Scan schedule details</p>
                                         <ul>
                                             <li>Date created</li>
@@ -475,8 +456,8 @@ To schedule when you want  to scan for vulnerabilities, choose one of the follow
                                         <p>You can stop a scan that is already in progress from the Scan Schedules page.</p>
                                         <h3>To stop a scan </h3>
                                         <ol>
-                                            <li value="1">Access the deployment for which you want to stop the scan, and then click <b>Scan Schedules</b> on the side navigation.</li>
-                                            <li value="2">In the Scan Schedules page, find the scheduled scan that is in progress.</li>
+                                            <li value="1">Access the deployment for which you want to stop the scan, and then click <b>Scan Schedules</b> in the left  panel.</li>
+                                            <li value="2">On the Scan Schedules page, find the scheduled scan that is in progress.</li>
                                             <li value="3">Click <b>STOP&#160;THIS SCAN</b>.</li>
                                         </ol>
                                         <div class="note">This feature stops the current scan that is in progress. If you want to stop future scans, deactivate the scan schedule instead. You can also delete a scan schedule unless it is an <span class="mc-variable ALVariables.Company variable">Alert Logic</span> default scan, as indicated in the schedule name.</div>
@@ -484,74 +465,88 @@ To schedule when you want  to scan for vulnerabilities, choose one of the follow
                                         <p>You can make a schedule active or inactive from the Scan Schedules page.</p>
                                         <h3>To activate or deactivate a scan schedule </h3>
                                         <ol>
-                                            <li value="1">Access the deployment for which you want to activate or deactivate the scan schedule, and then click <b>Scan Schedules</b> on the side navigation.</li>
-                                            <li value="2">In the Scan Schedules page, find the scheduled scan that you want to activate or deactivate.</li>
+                                            <li value="1">Access the deployment for which you want to activate or deactivate the scan schedule, and then click <b>Scan Schedules</b> in the left panel.</li>
+                                            <li value="2">On the Scan Schedules page, find the scheduled scan that you want to activate or deactivate.</li>
                                             <li value="3">Choose <b>Active</b> to activate the schedule or <b>Inactive</b> to deactivate it. </li>
                                         </ol>
                                         <h2>Edit a scan schedule<a name="Editascanschedule"></a></h2>
                                         <p>You can edit a schedule from the Scan Schedules page. </p>
                                         <h3>To edit a scan schedule </h3>
                                         <ol>
-                                            <li value="1">Access the deployment for which you want to edit the scan schedule, and then click <b>Scan Schedules</b> on the side navigation.</li>
-                                            <li value="2">In the Scan Schedules page, find the scan schedule that you want to edit.</li>
+                                            <li value="1">Access the deployment for which you want to edit the scan schedule, and then click <b>Scan Schedules</b> in the left panel.</li>
+                                            <li value="2">On the Scan Schedules page, find the scan schedule that you want to edit.</li>
                                             <li value="3">Click <b>View</b> next to the schedule, and then click the <b>EDIT</b> icon. </li>
-                                            <li value="4">In the Edit a Scan Schedule page, change any of the settings, and then click <b>SAVE</b>.</li>
+                                            <li value="4">On the Edit a Scan Schedule page, change any of the settings, and then click <b>SAVE</b>.</li>
                                         </ol>
                                         <div class="note">The name for an <span class="mc-variable ALVariables.Company variable">Alert Logic</span> default scan schedule  cannot be changed. </div>
                                         <h2>Delete a scan schedule<a name="Deleteascanschedule"></a></h2>
                                         <p>You can delete scan schedules that you create. The default scan schedules that <span class="mc-variable ALVariables.Company variable">Alert Logic</span> creates cannot be deleted.</p>
                                         <h3>To delete a scan schedule </h3>
                                         <ol>
-                                            <li value="1">Access the deployment from which you want to delete the scan schedule, and then click <b>Scan Schedules</b> on the side navigation.</li>
-                                            <li value="2">In the Scan Schedules page, find the scan schedule that you want to delete.</li>
+                                            <li value="1">Access the deployment from which you want to delete the scan schedule, and then click <b>Scan Schedules</b> in the left  panel.</li>
+                                            <li value="2">On the Scan Schedules page, find the scan schedule that you want to delete.</li>
                                             <li value="3">Click <b>View</b> next to the schedule, and then click the <b>DELETE</b> icon. </li>
                                         </ol>
                                         <h2>Exclude assets and ports from scans<a name="Excludeassetsandportsfromscans"></a></h2>
-                                        <p>You can exclude deployment assets and ports from external and internal vulnerability scanning. By setting exclusions globally, you can avoid managing them in each schedule. Excluding an asset or port from scans prevents future scans of the assets or ports, but does not stop scans in progress. Exposures from previous scans are still reflected on the excluded assets and ports. </p>
-                                        <p style="font-weight: bold;">To access <b>EXCLUSIONS</b>: </p>
-                                        <ol>
-                                            <li value="1">In the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span>, click <img src="../../Resources/Images/dashboard/configure-icon.png" style="vertical-align: bottom;" /><b>Configure</b>, click <b>Deployments</b>, and then click the deployment that contains the assets or ports you want to exclude. </li>
-                                            <li value="2">On the side navigation, click <b>Scope of Protection</b>, and then in the page, click <b>EXCLUSIONS</b>.</li>
-                                        </ol>
-                                        <h3>Exclusions from external scanning <a name="External_Scanning"></a></h3>
-                                        <p><b>To exclude assets or ports from external scanning:</b>
+                                        <p>You can exclude deployment assets from agent-based scans. You can exclude deployment assets and ports from internal and external network scans. By setting exclusions globally, you can avoid managing them in each schedule. Excluding an asset or port from scans prevents future scans of the assets or ports, but does not stop scans in progress. Exposures from previous scans are still reflected on the excluded assets and ports. </p>
+                                        <h3>Exclusions from agent-based scans</h3>
+                                        <div>
+                                            <p><b>To exclude assets  or <span class="mc-variable ALVariables.AWS variable">AWS</span> tags from agent-based scans:</b>
+                                            </p>
+                                            <ol>
+                                                <li value="1">Access the deployment for which you want to configure exclusions, and then click <b>Scan Exclusions</b> in the left navigation panel.</li>
+                                                <li value="2">Select the <b>Agent-Based Scans</b> tab.<div class="note">If you chose to use  internal network scan schedules for agent-based scans, choose the <b>Internal Network Scans</b> tab instead.</div></li>
+                                                <li value="3">To exclude assets, click <b>ASSETS</b> to search for available assets to exclude, and then click <b>EXCLUDE</b> for the asset you want to exclude.</li>
+                                                <div class="note">You can remove an asset from the exclusion list at any time to include the asset in scanning. To remove an asset from the exclusion list, click <b>CANCEL</b>.</div>
+                                                <li value="4">(<span class="mc-variable ALVariables.AWS variable">AWS</span> deployments only) To exclude assets by using <span class="mc-variable ALVariables.AWS variable">AWS</span> tags, click <b>TAGS</b> to search for available tags to exclude, and then click <b>EXCLUDE</b> for the tag you want to exclude.</li>
+                                                <div class="note">You can remove a tag from the exclusion list at any time to include the tag in scanning. To remove a tag from the exclusion list, click <b>CANCEL</b>.</div>
+                                                <li value="5"> On the Scan Exclusions page, click <b>SAVE EXCLUSIONS</b>. </li>
+                                            </ol>
+                                            <div class="note">If you exclude assets or tags  that are selected  in the Scope tab in an active scan schedule, the items remain selected   but are not included in future scans.</div>
+                                        </div>
+                                        <h3>Exclusions from internal network scans</h3>
+                                        <p><b>To exclude assets, ports, or <span class="mc-variable ALVariables.AWS variable">AWS</span> tags from internal network scans:</b>
                                         </p>
                                         <ol>
-                                            <li value="1">Select the <b>External Scanning</b> tab.</li>
-                                            <li value="2">To exclude assets, click <b>ASSETS</b> to search for available assets to exclude, and then click <b>EXCLUDE</b> for the asset you want to exclude.</li>
+                                            <li value="1">Access the deployment for which you want to configure exclusions, and then click <b>Scan Exclusions</b> in the left  panel.</li>
+                                            <li value="2">Select the <b>Internal Network Scans</b> tab.</li>
+                                            <li value="3">To exclude assets, click <b>ASSETS</b> to search for available assets to exclude, and then click <b>EXCLUDE</b> for the asset you want to exclude.</li>
                                             <div class="note">You can remove an asset from the exclusion list at any time to include the asset in scanning. To remove an asset from the exclusion list, click <b>CANCEL</b>.</div>
-                                            <li value="3">To exclude ports, click <b>PORTS</b>, and then do the following:<ol style="list-style-type: lower-alpha;"><li value="1">             Search for the host, subnet, or network that has the ports you want to exclude from external scanning.</li><li value="2">In the <b>Protocol</b> field, select the port protocol:&#160;<b>UDP</b>&#160;or <b>TCP</b>.</li><li value="3">Enter one or more ports that you want to exclude. Use a dash or colon to indicate a range  (for example, 1-10001). Separate multiple ports or port ranges with a comma (for example, 11234, 11311, 12000-12010).</li><li value="4">Click <b>EXCLUDE AND&#160;ADD&#160;ANOTHER</b>.</li></ol></li>
+                                            <li value="4">To exclude ports, click <b>PORTS</b>, and then do the following:<ol style="list-style-type: lower-alpha;"><li value="1">             Search for the host, subnet, or network that has the ports you want to exclude from internal network scans.</li><li value="2">In the <b>Protocol</b> field, select the port protocol:&#160;<b>UDP</b>&#160;or <b>TCP</b>.</li><li value="3">Enter one or more ports that you want to exclude. Use a dash or colon to indicate a range  (for example, 1-10001). Separate multiple ports or port ranges with a comma (for example, 11234, 11311, 12000-12010).</li><li value="4">Click <b>EXCLUDE AND&#160;ADD&#160;ANOTHER</b>.</li></ol></li>
                                             <div class="note">You can remove ports from the exclusion list at any time to include the ports in scanning. To remove ports from the exclusion list, click <b>REMOVE</b>.</div>
-                                            <li value="4">After you apply your exclusions, close the <b>Exclusions</b> window. </li>
-                                            <li value="5">On the <b>Scope of Protection</b> page, click <b>SAVE</b>. </li>
-                                        </ol>
-                                        <div class="note">If you exclude assets or ports that are selected in the Scope or Ports tab in an active scan schedule, the assets or ports remain selected   but are not included in future scans.</div>
-                                        <h3>Exclusions from internal scanning<a name="Internal_Scanning"></a></h3>
-                                        <p><b>To exclude assets, ports, or <span class="mc-variable ALVariables.AWS variable">AWS</span> tags from internal scanning:</b>
-                                        </p>
-                                        <ol>
-                                            <li value="1">Select the <b>Internal Scanning</b> tab.</li>
-                                            <li value="2">To exclude assets, click <b>ASSETS</b> to search for available assets to exclude, and then click <b>EXCLUDE</b> for the asset you want to exclude.</li>
-                                            <div class="note">You can remove an asset from the exclusion list at any time to include the asset in scanning. To remove an asset from the exclusion list, click <b>CANCEL</b>.</div>
-                                            <li value="3">To exclude ports, click <b>PORTS</b>, and then do the following:<ol style="list-style-type: lower-alpha;"><li value="1">             Search for the host, subnet, or network that has the ports you want to exclude from internal scanning.</li><li value="2">In the <b>Protocol</b> field, select the port protocol:&#160;<b>UDP</b>&#160;or <b>TCP</b>.</li><li value="3">Enter one or more ports that you want to exclude. Use a dash or colon to indicate a range  (for example, 1-10001). Separate multiple ports or port ranges with a comma (for example, 11234, 11311, 12000-12010).</li><li value="4">Click <b>EXCLUDE AND&#160;ADD&#160;ANOTHER</b>.</li></ol></li>
-                                            <div class="note">You can remove ports from the exclusion list at any time to include the ports in scanning. To remove ports from the exclusion list, click <b>REMOVE</b>.</div>
-                                            <li value="4">(<span class="mc-variable ALVariables.AWS variable">AWS</span> deployments only) To exclude assets by using <span class="mc-variable ALVariables.AWS variable">AWS</span> tags, click <b>TAGS</b> to search for available tags to exclude, and then click <b>EXCLUDE</b> for the tag you want to exclude.</li>
+                                            <li value="5">(<span class="mc-variable ALVariables.AWS variable">AWS</span> deployments only) To exclude assets by using <span class="mc-variable ALVariables.AWS variable">AWS</span> tags, click <b>TAGS</b> to search for available tags to exclude, and then click <b>EXCLUDE</b> for the tag you want to exclude.</li>
                                             <div class="note">You can remove a tag from the exclusion list at any time to include the tag in scanning. To remove a tag from the exclusion list, click <b>CANCEL</b>.</div>
-                                            <li value="5">After you apply your exclusions, close the <b>Exclusions</b> window.</li>
-                                            <li value="6"> On the <b>Scope of Protection</b> page, click <b>SAVE</b>. </li>
+                                            <li value="6"> On the Scan Exclusions page, click <b>SAVE EXCLUSIONS</b>. </li>
                                         </ol>
                                         <div class="note">If you exclude assets, tags, or ports that are selected  in the Scope or Ports tab in an active scan schedule, the items remain selected   but are not included in future scans.</div>
+                                        <h3>Exclusions from external network scans</h3>
+                                        <p><b>To exclude assets or ports from external network scans:</b>
+                                        </p>
+                                        <ol>
+                                            <li value="1">Access the deployment for which you want to configure exclusions, and then click <b>Scan Exclusions</b> in the left  panel.</li>
+                                            <li value="2">Select the <b>External Network Scans</b> tab.</li>
+                                            <li value="3">To exclude assets, click <b>ASSETS</b> to search for available assets to exclude, and then click <b>EXCLUDE</b> for the asset you want to exclude.</li>
+                                            <div class="note">You can remove an asset from the exclusion list at any time to include the asset in scanning. To remove an asset from the exclusion list, click <b>CANCEL</b>.</div>
+                                            <li value="4">To exclude ports, click <b>PORTS</b>, and then do the following:<ol style="list-style-type: lower-alpha;"><li value="1">             Search for the host, subnet, or network that has the ports you want to exclude from external network scans.</li><li value="2">In the <b>Protocol</b> field, select the port protocol:&#160;<b>UDP</b>&#160;or <b>TCP</b>.</li><li value="3">Enter one or more ports that you want to exclude. Use a dash or colon to indicate a range  (for example, 1-10001). Separate multiple ports or port ranges with a comma (for example, 11234, 11311, 12000-12010).</li><li value="4">Click <b>EXCLUDE AND&#160;ADD&#160;ANOTHER</b>.</li></ol></li>
+                                            <div class="note">You can remove ports from the exclusion list at any time to include the ports in scanning. To remove ports from the exclusion list, click <b>REMOVE</b>.</div>
+                                            <li value="5">On the Scan Exclusions page, click <b>SAVE EXCLUSIONS</b>. </li>
+                                        </ol>
+                                        <div class="note">If you exclude assets or ports that are selected in the Scope or Ports tab in an active scan schedule, the assets or ports remain selected   but are not included in future scans.</div>
                                     </div>
                                     <div class="top-nav">
                                         <ul class="top-nav-list">
-                                            <li class="top-nav-list-item"><a href="/">Home</a>
+                                            <li class="top-nav-list-item"><a href="https://docs.alertlogic.com">Home</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://www.alertlogic.com">Main website</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://legacy.docs.alertlogic.com">Legacy Docs</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://support.alertlogic.com">Support</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://developer.alertlogic.com/">Developer</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://legacy.docs.alertlogic.com">Legacy documentation</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://support.alertlogic.com">Support</a>
                                             </li>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://www.alertlogic.com">AlertLogic.com</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="in-page-toc" data-toc="#mc-main-content" data-toc-headings="h2">
                                         </ul>
                                     </div>
                                 </div>

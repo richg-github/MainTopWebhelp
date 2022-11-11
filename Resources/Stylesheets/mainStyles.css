@@ -1,5 +1,7 @@
 /*<meta />*/
 
+@import url('mainOverride.css');
+
 @namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
 
 html.home-topic	/*Used on home topic to override padding set in the skin*/

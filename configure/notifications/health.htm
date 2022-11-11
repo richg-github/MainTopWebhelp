@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Main_HTML5___Side_Navigation_Skin" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-searchable="True" data-mc-toc-path="Configure|[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Main_HTML5___Side_Navigation_Skin" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-searchable="True" data-mc-toc-path="Configure|[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
-        <meta name="description" content="Health notifications can alert you, subscribed users, or a configured connector when an agent, appliance, or API collector is not configured properly or offline (unhealthy)." />
+        <meta name="description" content="Health notifications can alert you, subscribed users, or a third-party application when an agent, appliance, or API collector is not configured properly or offline (unhealthy)." />
         <link rel="apple-touch-icon" sizes="1545x1545" href="../../Skins/Favicons/AlertLogic_Logo_2C_RGB_V_Standard.png" />
         <link rel="shortcut icon" href="../../Skins/Favicons/favicon.png" />
         <link rel="icon" sizes="96x96" href="../../Skins/Favicons/favicon-96x96.png" />
@@ -20,16 +20,12 @@
         <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <style>@import url('https://dl.dropboxusercontent.com/s/q5nt7ghnm4mfv88/override-main.css');
-
-</style>
-        <style>@import url('https://dl.dropboxusercontent.com/s/2w0nz28scrsaqf2/mainOveride.css');
-
-</style>
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Resources/Stylesheets/mainStyles.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -88,9 +84,17 @@
         </script>
         <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
         </script>
+        <script src="../../Resources/Scripts/jquery.toc/jquery.toc.js" type="text/javascript">
+        </script>
+        <script>/* <![CDATA[ */(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-MDHH9ML');/* ]]> */</script>
         <script>/* <![CDATA[ */
 			$(document).ready(function(){
 				$(".top-nav").appendTo("div.logo-wrapper");
+				$(".in-page-toc").appendTo("div.main-section");
 			});
 		/* ]]> */</script>
     </head>
@@ -118,7 +122,7 @@
                                 </div>
                             </div>
                             <div class="title-bar-layout outer-row">
-                                <div class="logo-wrapper"><a class="logo" href="../../main-home.htm" alt="Logo"></a>
+                                <div class="logo-wrapper"><a class="logo" href="../../home.htm" alt="Logo"></a>
                                 </div>
                                 <div class="navigation-wrapper nocontent">
                                     <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
@@ -171,6 +175,8 @@
                             </nav>
                             <div class="body-container">
                                 <div data-mc-content-body="True">
+                                    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDHH9ML" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                                    </noscript>
                                     <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Main_Toolbar mc-component nocontent" style="mc-topic-toolbar-items: ;">
                                         <div class="button-group-container-left">
                                             <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
@@ -211,10 +217,10 @@
                                     </div>
                                     <div role="main" id="mc-main-content">
                                         <h1>Health Notifications</h1>
-                                        <p>Health notifications can alert you, subscribed users, or a configured connector when an <span class="mc-variable ALVariables.Agent/Remote_Collector variable">agent</span>, appliance, or API collector is collecting data or offline (unhealthy).</p>
+                                        <p>Health notifications can alert you, subscribed users, or a third-party application when an <span class="mc-variable ALVariables.Agent/Remote_Collector variable">agent</span>, appliance, or API collector is collecting data or offline (unhealthy).</p>
                                         <div class="note">Collection assets that have been configured for less than 1 hour are excluded from health notifications.</div>
                                         <h2>Key concepts</h2>
-                                        <p data-mc-conditions="Primary.excludeDevInBhoof"><b>Notifications</b>: The Notifications feature in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span> can alert you, subscribed users, or a configured <a href="../connectors.htm">connector</a> when health statuses that meet the set criteria  occur.</p>
+                                        <p><b>Notifications</b>: The Notifications feature in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span> can alert you, subscribed users, or a third-party application when health statuses that meet the set criteria  occur. Notifications to a third-party application require  a <a href="../connections/templated/templated-connections.htm">templated connection</a>.</p>
                                         <p><b>Collection assets</b>:&#160;Collection assets are the class of assets that collect information in your environment and transfer that data to <span class="mc-variable ALVariables.Company variable">Alert Logic</span> for analysis.</p>
                                         <h2>Types of collection assets<a name="Typesofcollectionassets"></a></h2>
                                         <table style="width: 100%;">
@@ -254,7 +260,7 @@
                                         <ol>
                                             <li value="1">In the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span>, click the menu icon (<img src="../../Resources/Images/dashboard/menu-icon.png" style="vertical-align: bottom;"></img>).</li>
                                             <li value="2"> Click <img src="../../Resources/Images/dashboard/respond-icon.png" style="vertical-align: bottom;" /><b>Respond</b>, and then click <b>Health</b> to access the Health page.</li>
-                                            <li value="3">Click <img src="../../Resources/Images/dashboard/notifications-icon.png" style="vertical-align: bottom;" /><![CDATA[  ]]><b>NOTIFICATIONS</b>, and then click <b>Add Notification</b>.</li>
+                                            <li value="3">Click <img src="../../Resources/Images/dashboard/notifications-icon.png" style="vertical-align: bottom;" /><![CDATA[  ]]><b>NOTIFICATIONS</b>, and then click <b>Create a Notification</b>.</li>
                                             <li value="4">Complete the fields as described in <a href="#CreateaHealthNotification" class="MCXref xref">Create a Health Notification</a>.</li>
                                         </ol>
                                         <p style="font-weight: bold;"><span style="font-weight: bold;">To create a health notification from the Notifications page:</span>
@@ -282,19 +288,18 @@
                                             </p>
                                             <ol>
                                                 <li value="1">Select one or more  statuses for the collection asset. For more information on collection asset statuses and the types of exposures and remediations associated with each, see <a href="#Healthnotificationtoexposuresandremediationsmap" class="MCXref xref">Health notification to exposures and remediations map</a>.</li>
-                                                <li value="2">Select an asset from the table or use the filter to narrow down the asset you want to select.        </li>
-                                                <li value="3">(Optional) You can also select multiple assets at once.  For Mac users, hold down the <b>Command</b> key, and then click each asset. For Windows users, hold down the <b>Ctrl</b> key, and then click each asset. 
-				<div class="note"><p>You must select one or more asset scopes. If no asset scope is selected,  you will not receive notifications. </p></div></li>
-                                                <li value="4">Under Settings, select <b>On</b> to enable notifications, and then click <b>APPLY</b>. Leave <b>Off</b> if you do not want notifications enabled for the asset selected. </li>
-                                                <li value="5">Click <b>NEXT</b>.</li>
+                                                <li value="2">Select an asset from the table or use the filter to narrow down the asset you want to select.
+                    <div class="note"><p>You must select one or more asset scopes. If no asset scope is selected,  you will not receive notifications. </p></div></li>
+                                                <li value="3">Under Settings, select <b>On</b> to enable notifications, and then click <b>APPLY</b>. Leave <b>Off</b> if you do not want notifications enabled for the asset selected. </li>
+                                                <li value="4">Click <b>NEXT</b>.</li>
                                             </ol>
                                         </div>
                                         <p><b>To configure delivery for the health notification:</b>
                                         </p>
                                         <ol>
                                             <li value="1">(Optional) Set  preferences for delaying or suppressing notifications: <ul><li><b>Delay</b>—Use the delay preference to prevent notifications for health exposures that you anticipate, or that have a history of automatically resolving within a set amount of time. Health exposures that are resolved before the set delay do not result in a notification. <div class="example">If you set the delay to one hour for an agent offline status, you will not receive a notification unless the status persists for more than one hour.</div></li><li><b>Suppression</b>—Use the suppression preference to prevent mass email notifications for notification rules that you anticipate, or that have a history of occurring multiple times at once. <span class="mc-variable ALVariables.Company variable">Alert Logic</span> suppresses notifications after the first for this rule  for the set amount of time. <div class="example">If you set suppression to one hour for an agent offline status and 25 agents went offline simultaneously, you would receive only the first notification. You only receive future notifications if a new agent goes offline after the one-hour suppression. With no suppression set, you would receive all 25 notifications.</div></li></ul></li>
-                                            <li value="2">To subscribe users to receive a notification email, click <b data-mc-conditions="Primary.excludeDevInBhoof">Subscribe User(s)</b>, and then, under <b>Notification Delivery</b>, select the users that you want to receive the notification. You can use the search bar to help you find recipients.</li>
-                                            <li value="3" data-mc-conditions="Primary.excludeDevInBhoof">To subscribe a connector, click <b>Subscribed Connector</b>, and then, under <b>Notification Delivery</b>, select a configured connector. For more information about configuring and using connectors, see <a href="../connectors.htm" class="MCXref xref">Webhook and Email Connectors</a>.</li>
+                                            <li value="2">To subscribe users to receive a notification email, click <b>User(s)</b>, and then, under <b>Notification Delivery</b>, select the users that you want to receive the notification. You can use the search bar to help you find recipients.</li>
+                                            <li value="3">To subscribe a templated connection, click <b>Templated Connection</b>, and then, under <b>Notification Delivery</b>, select a configured templated connection. For more information about configuring and using templated connections, see <a href="../connections/templated/templated-connections.htm" class="MCXref xref">Templated Connections Configuration Guide</a>.</li>
                                             <li value="4">(Optional) Customize the <b>Email Subject</b>. </li>
                                             <li value="5">Click <b>SAVE</b>.</li>
                                         </ol>
@@ -357,14 +362,18 @@
                                     </div>
                                     <div class="top-nav">
                                         <ul class="top-nav-list">
-                                            <li class="top-nav-list-item"><a href="/">Home</a>
+                                            <li class="top-nav-list-item"><a href="https://docs.alertlogic.com">Home</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://www.alertlogic.com">Main website</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://legacy.docs.alertlogic.com">Legacy Docs</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://support.alertlogic.com">Support</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://developer.alertlogic.com/">Developer</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://legacy.docs.alertlogic.com">Legacy documentation</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://support.alertlogic.com">Support</a>
                                             </li>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://www.alertlogic.com">AlertLogic.com</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="in-page-toc" data-toc="#mc-main-content" data-toc-headings="h2">
                                         </ul>
                                     </div>
                                 </div>

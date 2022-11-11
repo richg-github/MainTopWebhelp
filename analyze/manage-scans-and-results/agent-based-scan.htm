@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Main_HTML5___Side_Navigation_Skin" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-searchable="True" data-mc-toc-path="Analyze|[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Main_HTML5___Side_Navigation_Skin" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-searchable="True" data-mc-toc-path="Analyze|[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
@@ -20,16 +20,12 @@
         <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
-        <style>@import url('https://dl.dropboxusercontent.com/s/q5nt7ghnm4mfv88/override-main.css');
-
-</style>
-        <style>@import url('https://dl.dropboxusercontent.com/s/2w0nz28scrsaqf2/mainOveride.css');
-
-</style>
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Resources/Stylesheets/mainStyles.css" rel="stylesheet" type="text/css" />
         <style>/*&lt;meta /&gt;*/
 
@@ -89,9 +85,17 @@
         </script>
         <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
         </script>
+        <script src="../../Resources/Scripts/jquery.toc/jquery.toc.js" type="text/javascript">
+        </script>
+        <script>/* <![CDATA[ */(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-MDHH9ML');/* ]]> */</script>
         <script>/* <![CDATA[ */
 			$(document).ready(function(){
 				$(".top-nav").appendTo("div.logo-wrapper");
+				$(".in-page-toc").appendTo("div.main-section");
 			});
 		/* ]]> */</script>
     </head>
@@ -119,7 +123,7 @@
                                 </div>
                             </div>
                             <div class="title-bar-layout outer-row">
-                                <div class="logo-wrapper"><a class="logo" href="../../main-home.htm" alt="Logo"></a>
+                                <div class="logo-wrapper"><a class="logo" href="../../home.htm" alt="Logo"></a>
                                 </div>
                                 <div class="navigation-wrapper nocontent">
                                     <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
@@ -172,6 +176,8 @@
                             </nav>
                             <div class="body-container">
                                 <div data-mc-content-body="True">
+                                    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDHH9ML" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                                    </noscript>
                                     <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Main_Toolbar mc-component nocontent" style="mc-topic-toolbar-items: ;">
                                         <div class="button-group-container-left">
                                             <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
@@ -321,9 +327,9 @@
                                             </tbody>
                                         </table>
                                         <div class="note">If you have <span class="mc-variable ALVariables.AWS_1 variable">Amazon Web Services (AWS)</span> Systems Manager managed instances, you can use <a href="https://docs.aws.amazon.com/systems-manager/latest/userguide/distributor.html"><span class="mc-variable ALVariables.AWS variable">AWS</span> Systems Manager Distributor</a>     to install the  <span class="mc-variable ALVariables.AgentName variable">Alert Logic agent</span> on the instances instead of installing the agent on each host manually. For more information, see <a href="../../prepare/agent-install-automated-aws.htm" class="MCXref xref">Automate Alert Logic Agent Installation with AWS Systems Manager Distributor</a>.</div>
-                                        <h3>Installed agent and agent health</h3>
-                                        <p>The <span class="mc-variable ALVariables.Agent/Remote_Collector variable">agent</span> must be installed on the host. The health status of the agent related to connectivity or resource issues may affect the installation and execution of agent-based scanning. You can verify the health status and presence of an agent on a specific host using Agent view on the <a href="../topology.htm" class="MCXref xref">Topology</a> page.</p>
-                                        <p>You can also verify the health and presence of an agent on a specific host by using the <a href="../health.htm" class="MCXref xref">Health</a> and the <a href="../reports/service/health/missing-agent-digest.htm" class="MCXref xref">Missing Agent Digest</a> report. </p>
+                                        <h3>Agent-based scanning health</h3>
+                                        <p>The <span class="mc-variable ALVariables.Agent/Remote_Collector variable">agent</span> must be installed on the host. The health status of the agent related to connectivity or resource issues may affect the installation and execution of agent-based scanning. You can verify the health status and presence of an agent on a specific host by using the <a href="../health.htm" class="MCXref xref">Health</a> page, the <a href="../reports/service/health/missing-agent-digest.htm" class="MCXref xref">Missing Agent Digest</a> report, and the Agent view on the <a href="../topology.htm" class="MCXref xref">Topology</a> page.</p>
+                                        <p>If you need to increase the frequency of agent-based scans or exclude hosts with an unsupported operating system, <span class="mc-variable ALVariables.PST_Product variable">Alert Logic</span> also reports a Scan category exposure on the <a href="../health.htm" class="MCXref xref">Health</a> page. </p>
                                         <h3>Requirements for the <span class="mc-variable ALVariables.AgentName variable">Alert Logic agent</span> with scan components<a name="RequirementsfortheAlertLogicagentwithscancomponents"></a></h3>
                                         <p>Scan components of the agent require the following in addition to  the standard <a href="../../requirements/agent.htm" class="MCXref xref">Requirements for the Alert Logic Agent</a>.</p>
                                         <table style="width: 100%;">
@@ -420,7 +426,7 @@
                                             <li value="6">Click <b>SAVE</b>.</li>
                                             <li value="7">In the confirmation window, click <b>DISABLE</b>.</li>
                                         </ol>
-                                        <div class="note">Allow up to 4 hours for hosts to disable agent-based scanning components. Any vulnerabilities detected by agent-based scans while active will be removed from the Exposures page the next time an internal network scan completes. The vulnerabilities detected by the agent-based scan will remain in reports generated previously and on pages that track vulnerability count trends, such as the <a href="../dashboard/vulnerability-summary.htm">Vulnerability Summary dashboard</a>,<a href="../reports/Vulnerabilities/reports.htm" class="MCXref xref">Vulnerabilities Reports</a>, and <a href="../reports/remediations/reports.htm" class="MCXref xref">Remediations Reports</a>.</div>
+                                        <div class="note">Allow up to 4 hours for hosts to disable agent-based scanning components. Any vulnerabilities detected by agent-based scans while active will be removed from the Exposures page the next time an internal network scan completes. The vulnerabilities detected by the agent-based scan will remain in reports generated previously and on pages that track vulnerability count trends, such as the <a href="../dashboard/vulnerability-summary.htm">Vulnerability Summary dashboard</a>, <a href="../reports/Vulnerabilities/reports.htm" class="MCXref xref">Vulnerabilities Reports</a>, and <a href="../reports/remediations/reports.htm" class="MCXref xref">Remediations Reports</a>.</div>
                                         <h2>Scan using the <span class="mc-variable ALVariables.AgentName variable">Alert Logic agent</span></h2>
                                         <p>An internal scan of a host that meets the <a href="#Requirements" class="MCXref xref">Requirements</a> for agent-based scanning will optimize vulnerability assessment.</p>
                                         <div>
@@ -445,9 +451,10 @@
                                             <li value="4">In the left navigation panel, click <b>Scan Schedules</b>.</li>
                                             <li value="5">On the Agent-Based Scans page, ensure <b>Use internal network scan schedules</b> is turned off.</li>
                                         </ol>
-                                        <p><b>If the scan frequency is set to scan as often as necessary and the scan window is set to scan any time (default)</b>:</p>
+                                        <p><b>If the scan frequency is set to scan as often as necessary and the scan window is set to scan any time (default):</b>
+                                        </p>
                                         <p>The agent-based scan runs at every 12-hour interval from the initial execution. The results of the agent-based host scan are visible in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span> once the scan completes.</p>
-                                        <p><b>If the scan window is defined to specific start and end times</b>
+                                        <p><b>If the scan window is defined to specific start and end times:</b>
                                         </p>
                                         <p>The agent-based scan runs at the start of the window. The results of the agent-based host scan are   visible in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span> once the  scan completes for the window. For more information on asset scopes in scan schedules, see <a href="schedules.htm#Definethescopeoftheassetstoscan" class="MCXref xref">Define the scope of the assets to scan</a>.</p>
                                         <h3>Use internal network scan schedules<a name="Useinternalnetworkscanschedules"></a></h3>
@@ -461,9 +468,11 @@
                                             <li value="4">In the left navigation panel, click <b>Scan Schedules</b>.</li>
                                             <li value="5">On the Agent-Based Scans page, turn on <b>Use internal network scan schedules</b>.</li>
                                         </ol>
-                                        <p><b>If the scan frequency is set to scan as often as necessary and the scan window is set to scan any time (default)</b>:</p>
+                                        <p><b>If the scan frequency is set to scan as often as necessary and the scan window is set to scan any time (default):</b>
+                                        </p>
                                         <p>The agent-based scan runs at every 12-hour interval from the initial execution. The consolidated results of the agent-based host scan are visible in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span> once an internal network scan completes.</p>
-                                        <p><b>If the scan window is defined to specific start and end times</b>:</p>
+                                        <p><b>If the scan window is defined to specific start and end times:</b>
+                                        </p>
                                         <p>The agent-based scan runs at the start of the window. The consolidated results of the agent-based host scan are   visible in the <span class="mc-variable ALVariables.ALUI_1 variable">Alert Logic console</span> once the internal network scan completes for the window. For more information on asset scopes in scan schedules, see <a href="schedules.htm#Definethescopeoftheassetstoscan" class="MCXref xref">Define the scope of the assets to scan</a>.</p>
                                         <h3>Use Scan Now<a name="UseScanNow"></a></h3>
                                         <p>If you need to run a scan on a specific host immediately, you can use the Scan Now feature on the Topology page. This feature scans the selected host right away or as soon as possible, outside the normal schedule. </p>
@@ -480,6 +489,22 @@
                                         <div class="note">
                                             <p>Scan Now prompts <span class="mc-variable ALVariables.Company variable">Alert Logic</span> to scan the host as soon as possible. Depending on technological factors such as the current load on the scanner and the availability of a scan appliance, a delay of up to 25 minutes may occur before the internal network scan begins.</p>
                                         </div>
+                                        <h2>Exclude assets from agent-based scans</h2>
+                                        <p>You can exclude deployment assets from agent-based scans. By setting exclusions globally, you can avoid managing them in each agent-based scan schedule. Excluding an asset  from scans prevents future scans of the assets, but does not stop scans in progress. Exposures from previous scans are still reflected on the excluded assets.</p>
+                                        <div>
+                                            <p><b>To exclude assets  or <span class="mc-variable ALVariables.AWS variable">AWS</span> tags from agent-based scans:</b>
+                                            </p>
+                                            <ol>
+                                                <li value="1">Access the deployment for which you want to configure exclusions, and then click <b>Scan Exclusions</b> in the left navigation panel.</li>
+                                                <li value="2">Select the <b>Agent-Based Scans</b> tab.<div class="note">If you chose to use  internal network scan schedules for agent-based scans, choose the <b>Internal Network Scans</b> tab instead.</div></li>
+                                                <li value="3">To exclude assets, click <b>ASSETS</b> to search for available assets to exclude, and then click <b>EXCLUDE</b> for the asset you want to exclude.</li>
+                                                <div class="note">You can remove an asset from the exclusion list at any time to include the asset in scanning. To remove an asset from the exclusion list, click <b>CANCEL</b>.</div>
+                                                <li value="4">(<span class="mc-variable ALVariables.AWS variable">AWS</span> deployments only) To exclude assets by using <span class="mc-variable ALVariables.AWS variable">AWS</span> tags, click <b>TAGS</b> to search for available tags to exclude, and then click <b>EXCLUDE</b> for the tag you want to exclude.</li>
+                                                <div class="note">You can remove a tag from the exclusion list at any time to include the tag in scanning. To remove a tag from the exclusion list, click <b>CANCEL</b>.</div>
+                                                <li value="5"> On the Scan Exclusions page, click <b>SAVE EXCLUSIONS</b>. </li>
+                                            </ol>
+                                            <div class="note">If you exclude assets or tags  that are selected  in the Scope tab in an active scan schedule, the items remain selected   but are not included in future scans.</div>
+                                        </div>
                                         <h2>View the results of an agent-based scan<a name="Viewtheresultsofanagent-basedscan"></a></h2>
                                         <p>Agent-based scan results are consolidated with latest internal network scan results, if available. Only agent-based scan results are posted if internal network scans are not configured or if internal network scan results are expired (more than 100 days old). If you choose to use internal network scan schedules for your agent-based scans, results are made visible when an internal network scan is completed. The consolidated results from agent-based and internal network scans are found on the <a href="../exposures.htm" class="MCXref xref">Exposures</a> page, and you can use the "Agent" category filter to isolate vulnerabilities detected by agent-based scans. </p>
                                         <div class="note">Expect a significant increase in the number of detected vulnerabilities with a new agent-based scan if you did not previously use credentials for internal network scans on the host.</div>
@@ -488,18 +513,22 @@
                                         </p>
                                         <p>Agent-based scan results are also available in <a href="../reports/Vulnerabilities/reports.htm" class="MCXref xref">Vulnerabilities Reports</a> and <a href="../reports/remediations/reports.htm" class="MCXref xref">Remediations Reports</a>.</p>
                                         <h2>Scan-based vulnerability assessment coverage details<a name="Scan-basedvulnerabilityassessmentcoveragedetails"></a></h2>
-                                        <p>Agent-based scans detect vulnerabilities and missing patches on hosts with an agent installed. For the most comprehensive vulnerability assessment coverage, you must also schedule internal network scans to run configuration checks (such as for missing TLS certificates and use of default account passwords)  and conduct standard web application testing. See <a href="schedules.htm" class="MCXref xref">Manage Scan Schedules</a> for details about scheduling internal network scans. Agent-based host scanning alone cannot be used for PCI compliance. See <a href="../../configure/pci-scans.htm" class="MCXref xref">Manage PCI Scans</a> for details.</p>
+                                        <p>Agent-based scans detect vulnerabilities and missing patches on hosts with an agent installed. For the most comprehensive vulnerability assessment coverage, you must also schedule internal network scans to run configuration checks (such as for missing TLS certificates and use of default account passwords)  and conduct standard web application testing. See <a href="schedules.htm" class="MCXref xref">Manage Vulnerability Scan Schedules</a> for details about scheduling internal network scans. Agent-based host scanning alone cannot be used for PCI compliance. See <a href="../../configure/pci-scans.htm" class="MCXref xref">Manage PCI Scans</a> for details.</p>
                                     </div>
                                     <div class="top-nav">
                                         <ul class="top-nav-list">
-                                            <li class="top-nav-list-item"><a href="/">Home</a>
+                                            <li class="top-nav-list-item"><a href="https://docs.alertlogic.com">Home</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://www.alertlogic.com">Main website</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://legacy.docs.alertlogic.com">Legacy Docs</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://support.alertlogic.com">Support</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://developer.alertlogic.com/">Developer</a>
                                             </li>
-                                            <li class="top-nav-list-item"><a href="https://legacy.docs.alertlogic.com">Legacy documentation</a>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://support.alertlogic.com">Support</a>
                                             </li>
+                                            <li class="top-nav-list-item" target="_blank"><a href="https://www.alertlogic.com">AlertLogic.com</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="in-page-toc" data-toc="#mc-main-content" data-toc-headings="h2">
                                         </ul>
                                     </div>
                                 </div>
