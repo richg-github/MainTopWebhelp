@@ -100,6 +100,27 @@
 				$(".in-page-toc").appendTo("div.main-section");
 			});
 		/* ]]> */</script>
+	    
+	 <script>
+            window.addEventListener('DOMContentLoaded', () => {
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        const id = entry.target.getAttribute('id');
+                        if (entry.intersectionRatio > 0) {
+                            document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('active');
+                        } else {
+                            document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.remove('active');
+                        }
+                    });
+                });
+
+                document.querySelectorAll("#mc-main-content > h2, #mc-main-content h7, #mc-main-content h8").forEach((docsheading) => {
+                    observer.observe(docsheading);
+		    alert(docsheading.id);
+                });
+
+            });
+        </script>
     </head>
     <body>
         <div class="foundation-wrap off-canvas-wrapper">
